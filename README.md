@@ -3,7 +3,7 @@
 ## API-26-02 - **aNota**
 
   
-<img width="337" height="305" alt="Telas API" src="https://github.com/user-attachments/assets/92f49ce3-2760-4f42-8446-5f924f1346d3" />
+<img width="1000" height="500" alt="Telas API" src="https://github.com/user-attachments/assets/92f49ce3-2760-4f42-8446-5f924f1346d3" />
 
 
   <h2>Lovelace</h2>
