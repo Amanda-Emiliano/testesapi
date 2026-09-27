@@ -1,4 +1,6 @@
 ### 🌿Estratégia de Branch
+
+----
   
 GitHub Flow
   
