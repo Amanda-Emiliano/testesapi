@@ -1,4 +1,4 @@
-# 📋 Padrão de Commit
+# 📝 Padrão de Commit
 
 Para manter o histórico do projeto organizado e facilitar a identificação das alterações realizadas, os commits devem seguir o padrão:
 
