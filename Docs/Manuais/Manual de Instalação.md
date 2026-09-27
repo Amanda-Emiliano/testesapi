@@ -4,7 +4,7 @@ Este manual apresenta o passo a passo para instalar e realizar a configuração 
 
 ##  1. Download
 
-Acesse o site oficial da **JetBrains** e faça o download do IntelliJ IDEA compatível com o seu sistema operacional.
+Acesse o site oficial da **JetBrains(https://www.jetbrains.com/idea/download/?section=windows)** e faça o download do IntelliJ IDEA compatível com o seu sistema operacional.
 
 ##  2. Abrir o instalador
 
