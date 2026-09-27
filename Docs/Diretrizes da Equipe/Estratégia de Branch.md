@@ -2,7 +2,7 @@
 
 ----
   
-### GitHub Flow
+#### GitHub Flow
   
 - Funcionamento:
   
