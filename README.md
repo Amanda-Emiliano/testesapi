@@ -64,7 +64,7 @@ Desenvolver um sistema desktop em Java, integrado a um banco de dados relacional
 |  **SPRINT 3** | 02/11 - 22/11 | [Ver Sprint 3] |
 
 </div>
-
+----
 
 ☑️ **Definition of Ready (DoR)** 
 
