@@ -40,7 +40,7 @@ Desenvolver um sistema desktop em Java, integrado a um banco de dados relacional
 | 13 | Baixa | Como professor, quero cadastrar notas de atividades extras para o cálculo da média final do aluno. | 1 e 3 | 2 | ⬜ | 
 | 14 | Baixa | Como aluno, quero ver o agendamento das minhas próximas avaliações para organizar meus estudos. | 1 e 3 | 3 | ⬜ | 
 | 15 | Baixa | Como aluno, quero realizar as provas no sistema para facilitar meu acesso e ter um ambiente de resolução sem distrações. | 1 e 3 | 8 | ⬜ | 
-
+----
 ### 💻 Tecnologias
 
 -   **Versionador:** Github
