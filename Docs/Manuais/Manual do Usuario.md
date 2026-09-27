@@ -27,7 +27,7 @@ Para acessar uma dessas áreas, basta clicar no botão correspondente no menu da
 
 ---
 
-# 📝 2. Cadastro de Questões
+## 📝 2. Cadastro de Questões
 
 Na área de cadastro, o usuário pode criar diferentes tipos de questões para utilizar posteriormente na montagem das provas.
 
@@ -117,7 +117,7 @@ Dessa forma, o sistema registra a relação entre cada conceito e a alternativa 
 
 ---
 
-# 📋 3. Montagem de Provas e Gabaritos
+## 📋 3. Montagem de Provas e Gabaritos
 
 Na tela de **Montagem de Provas e Gabaritos**, o usuario pode criar uma avaliação utilizando as questões já disponíveis no sistema.
 
@@ -147,7 +147,7 @@ Após conferir a prova, clique em **Salvar Prova** para finalizar o cadastro.
 
 ---
 
-# 👥 4. Alunos e Correção de Provas
+## 👥 4. Alunos e Correção de Provas
 
 A área de **Alunos** permite ao usuário acessar as avaliações dos estudantes e realizar suas correções.
 
@@ -187,7 +187,7 @@ Após finalizar a correção, clique em **Salvar** para registrar as informaçõ
 
 ---
 
-# 🧭 5. Navegação entre as Telas
+## 🧭 5. Navegação entre as Telas
 
 As telas principais possuem botões de navegação que permitem acessar as diferentes funcionalidades do sistema.
 
