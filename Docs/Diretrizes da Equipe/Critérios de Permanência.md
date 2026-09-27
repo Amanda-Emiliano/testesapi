@@ -1,5 +1,7 @@
 ### 🔐Critérios de Permanência 
 
+----
+
 - Manter o respeito e profissionalismo;
   
 - Daily: 
