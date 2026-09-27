@@ -1,5 +1,3 @@
-@@ -2,17 +2,10 @@
-
 | Tipo | Descrição | Exemplo 
 |:------:|:-----------:|:-----------:|
 
@@ -22,4 +20,4 @@
 | style | Mudança de formatação, sem afetar o código | style: ajuste de nomes de variáveis para o padrão camelCase | 
 | refactor | Refatoração do código, sem alterar funcionalidade | refactor: otimização da consulta de dados do banco sem alterar o retorno da API correspondentes | 
 | test | Adiciona ou modifica testes | test: adição de testes unitários para a validação de formulários | 
-| chore | Atualizações menores que não impactam diretamente a funcionalidade do código | chore: atualização das dependências do projeto no package.json |
+| chore | Atualizações menores que não impactam diretamente a funcionalidade do código | chore: atualização das dependências do projeto no package.json | 
