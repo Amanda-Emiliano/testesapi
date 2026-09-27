@@ -5,7 +5,7 @@ Desenvolvimento das telas da plataforma em Java, implementando suas funcionalida
 
 -----
 
-## 📋 Sprint 1
+## 📜 Sprint 1
 
 | Rank | Prioridade | User Story | Sprint | Estimativa | Status |
 |------|------------|------------|--------|------------|--------|
@@ -15,7 +15,7 @@ Desenvolvimento das telas da plataforma em Java, implementando suas funcionalida
 | 4 | Média | Como professor, quero aplicar provas com data e hora definidas para que todos os alunos da turma realizem a prova no mesmo período. | 1 | 5 | ⏳ |
 ----
 
-## 📋 BACKLOG SPRINT 1 
+## 📑 BACKLOG SPRINT 1 
 
 | | |
 |---|---|
