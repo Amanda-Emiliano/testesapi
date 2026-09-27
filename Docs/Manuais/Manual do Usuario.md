@@ -1,4 +1,4 @@
-# 📘 Manual do Usuário – Sistema de Avaliações
+# 📘 Manual do Usuário – aNota
 
 ## 📑 Sumário
 
@@ -29,7 +29,7 @@ Para acessar uma dessas áreas, basta clicar no botão correspondente no menu da
 
 # 📝 2. Cadastro de Questões
 
-Na área de cadastro, o professor pode criar diferentes tipos de questões para utilizar posteriormente na montagem das provas.
+Na área de cadastro, o usuário pode criar diferentes tipos de questões para utilizar posteriormente na montagem das provas.
 
 ## ✏️ 2.1 Questão Aberta
 
@@ -119,7 +119,7 @@ Dessa forma, o sistema registra a relação entre cada conceito e a alternativa 
 
 # 📋 3. Montagem de Provas e Gabaritos
 
-Na tela de **Montagem de Provas e Gabaritos**, o professor pode criar uma avaliação utilizando as questões já disponíveis no sistema.
+Na tela de **Montagem de Provas e Gabaritos**, o usuario pode criar uma avaliação utilizando as questões já disponíveis no sistema.
 
 ### 📌 1º Passo
 
@@ -149,7 +149,7 @@ Após conferir a prova, clique em **Salvar Prova** para finalizar o cadastro.
 
 # 👥 4. Alunos e Correção de Provas
 
-A área de **Alunos** permite ao professor acessar as avaliações dos estudantes e realizar suas correções.
+A área de **Alunos** permite ao usuário acessar as avaliações dos estudantes e realizar suas correções.
 
 ### 📌 1º Passo
 
@@ -176,7 +176,10 @@ As questões de alternativas possuem **correção automática**, sendo sua pontu
 Nas questões abertas, o professor pode:
 
 - informar a **pontuação** obtida pelo aluno;
-- adicionar **comentários**, caso necessário.
+
+### 💬 Comentários
+
+O professor pode adicionar **comentários às questões corrigidas**, quando necessário.
 
 ### 📌 5º Passo
 
