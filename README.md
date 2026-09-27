@@ -95,12 +95,12 @@ Desenvolver um sistema desktop em Java, integrado a um banco de dados relacional
 
 ----
   
-### 📁 Manual de Instalação
+### 🛠️ Manual de Instalação
 
 
 ----
 
-### 🧑‍🤝‍🧑 Manual do Usuário
+### 📥 Manual do Usuário
 
 
 ----
