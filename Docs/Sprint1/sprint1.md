@@ -15,6 +15,13 @@ Desenvolvimento das telas da plataforma em Java, implementando suas funcionalida
 | 4 | Média | Como professor, quero aplicar provas com data e hora definidas para que todos os alunos da turma realizem a prova no mesmo período. | 1 | 5 | ⏳ |
 ----
 
+## 📋 BACKLOG SPRINT 1 
+|---|---|
+| Capacidade estimada da Equipe para a sprint | * Story Points <br> (ainda não temos estimativa) |
+| Meta da Sprint | US de rank 1, 2 e 3 (total de 24 Story Points) |
+| Previsão da Sprint (extra, sem compromisso de entrega) | US de rank 4 (5 Story Points) |
+----
+
 ### 💻 Tecnologias
 
 -   **Versionador:** Github
