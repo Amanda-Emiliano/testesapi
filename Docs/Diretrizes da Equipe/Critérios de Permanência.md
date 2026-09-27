@@ -1,4 +1,4 @@
-### Critérios de Permanência 
+### 🔐Critérios de Permanência 
 
 - Manter o respeito e profissionalismo;
   
