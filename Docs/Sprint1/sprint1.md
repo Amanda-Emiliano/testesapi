@@ -16,6 +16,7 @@ Desenvolvimento das telas da plataforma em Java, implementando suas funcionalida
 ----
 
 ## 📋 BACKLOG SPRINT 1 
+
 | Capacidade estimada da Equipe para a sprint | * Story Points <br> (ainda não temos estimativa) |
 |---|---|
 | Meta da Sprint | US de rank 1, 2 e 3 (total de 24 Story Points) |
