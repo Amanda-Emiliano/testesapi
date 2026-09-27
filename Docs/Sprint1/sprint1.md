@@ -1,18 +1,18 @@
 
 **🚀 Desafio da sprint 1**
 
-Calculadora que realize os seguintes cáculos: sequência de cubos, números primos e tribonacci e que também contenha um menu funcional que permita o usuário escolher qual cálculo deseja fazer e que ofereça a opção de sair.
+Desenvolvimento das telas da plataforma em Java, implementando suas funcionalidades básicas de cadastro, edição e armazenamento de questões e respostas, com organização das informações necessárias para a composição do portfólio de avaliações dos professores.
 
 -----
 
 ## 📋 Sprint 1
 
-| Rank | Prioridade | User Story | Sprint | Status |
-|------|------------|------------|--------|--------|
-| 1 | Alta | Como professor, quero armazenar e consultar questões e respostas para ter um portfólio do meu material usado em avaliações. | 1 | ⏳ | 
-| 2 | Alta | Como professor, quero manter um histórico de quando utilizei uma questão para evitar repetição excessiva de conteúdo. | 1 | ⏳ |
-| 3 | Alta | Como professor, quero selecionar e organizar questões para montar as provas e centralizar o processo de avaliação.  | 1 | ⏳ |
-| 4 | Média | Como professor, quero aplicar provas com data e hora definidas para que todos os alunos da turma realizem a prova no mesmo período. | 1 | ⏳ |
+| Rank | Prioridade | User Story | Sprint | Estimativa | Status |
+|------|------------|------------|--------|------------|--------|
+| 1 | Alta | Como professor, quero armazenar e consultar questões e respostas para ter um portfólio do meu material usado em avaliações. | 1 | 8 | ⏳ 
+| 2 | Alta | Como professor, quero manter um histórico de quando utilizei uma questão para evitar repetição excessiva de conteúdo. | 1 | 8 |⏳ |
+| 3 | Alta | Como professor, quero selecionar e organizar questões para montar as provas e centralizar o processo de avaliação.  | 1 | 8 |⏳ |
+| 4 | Média | Como professor, quero aplicar provas com data e hora definidas para que todos os alunos da turma realizem a prova no mesmo período. | 1 | 5 |⏳ |
 ----
 
 ### 💻 Tecnologias
