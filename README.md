@@ -3,9 +3,8 @@
 ## API-26-02 - **aNota**
 
   
-  <img width="337" height="305" alt="image" src="https://github.com/user-attachments/assets/d446b835-299c-4777-a2bf-c9d114403136" />
- 
-  
+  <img width="1366" height="768" alt="Telas API" src="https://github.com/user-attachments/assets/2a232868-12d1-45bb-8ccd-f20643623a54" />
+
   <h2>Lovelace</h2>
 
 **Projeto Acadêmico | API 2° semestre 2026 | Fatec** <br>
