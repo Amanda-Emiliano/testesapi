@@ -87,14 +87,14 @@ As alternativas devem ser apresentadas no próprio **enunciado da questão**, id
 
 **Enunciado:**
 
-> Relacione os conceitos de POO às suas respectivas definições.
+> Relacione os conceitos do Scrum às suas respectivas definições
 >
 > **Alternativas:**
 >
-> 1. Instância de uma classe.
-> 2. Modelo que define atributos e comportamentos.
-> 3. Ocultação dos detalhes internos de uma classe.
-> 4. Capacidade de um objeto assumir diferentes formas.
+> 1. W
+> 2. X
+> 3. Y
+> 4. Z
 
 #### 📌 1º Passo
 
