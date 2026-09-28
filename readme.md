@@ -102,7 +102,7 @@ Link para o manual de instalação: [Manual de instalação](https://github.com/
 ----
 
 ### 🧑‍🤝‍🧑 Manual do Usuário
-
+Link para o manual do usuário: [Manual do usuário](https://github.com/Equipe-Lovelace-Fatec/API-26-02/blob/512f53e476a8e4cf674eaaf60cd3e0fb6be2e89e/Docs/Manuais/Manual%20do%20Usu%C3%A1rio.md)
 
 ----
 
