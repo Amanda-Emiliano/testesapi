@@ -31,19 +31,19 @@ Para acessar uma dessas áreas, basta clicar no botão correspondente no menu da
 
 Na área de cadastro, o usuário pode criar diferentes tipos de questões para utilizar posteriormente na montagem das provas.
 
-## ✏️ 2.1 Questão Aberta
+### ✏️ 2.1 Questão Aberta
 
 Para cadastrar uma questão aberta:
 
-### 📌 1º Passo
+#### 📌 1º Passo
 
 Preencha o campo **Enunciado** com a pergunta que será apresentada ao aluno.
 
-### 📌 2º Passo
+#### 📌 2º Passo
 
 No campo abaixo, informe a **resposta esperada (gabarito)** da questão.
 
-### 📌 3º Passo
+#### 📌 3º Passo
 
 Clique em **Salvar Questão**.
 
@@ -51,23 +51,23 @@ A questão será adicionada ao banco de questões e poderá ser utilizada poster
 
 ---
 
-## 🔘 2.2 Questão de Múltipla Escolha
+### 🔘 2.2 Questão de Múltipla Escolha
 
 Para cadastrar uma questão de múltipla escolha:
 
-### 📌 1º Passo
+#### 📌 1º Passo
 
 Preencha o campo **Enunciado** com a pergunta da questão.
 
-### 📌 2º Passo
+#### 📌 2º Passo
 
 Preencha **todas as quatro alternativas** disponíveis.
 
-### 📌 3º Passo
+#### 📌 3º Passo
 
 Selecione a alternativa que corresponde à resposta correta.
 
-### 📌 4º Passo
+#### 📌 4º Passo
 
 Clique em **Salvar Questão**.
 
@@ -77,13 +77,13 @@ A questão ficará disponível para ser utilizada na montagem de provas.
 
 ---
 
-## 🔗 2.3 Questão de Relacionamento entre Colunas
+### 🔗 2.3 Questão de Relacionamento entre Colunas
 
 Nesse tipo de questão, o objetivo é fazer com que o aluno **relacione cada conceito à definição correspondente**.
 
 As alternativas devem ser apresentadas no próprio **enunciado da questão**, identificadas de **1 a 4**.
 
-### 📌 Exemplo
+#### 📌 Exemplo
 
 **Enunciado:**
 
@@ -96,15 +96,15 @@ As alternativas devem ser apresentadas no próprio **enunciado da questão**, id
 > 3. Ocultação dos detalhes internos de uma classe.
 > 4. Capacidade de um objeto assumir diferentes formas.
 
-### 📌 1º Passo
+#### 📌 1º Passo
 
 Preencha os campos de **Conceito 1, Conceito 2, Conceito 3 e Conceito 4** com os itens que deverão ser relacionados.
 
-### 📌 2º Passo
+#### 📌 2º Passo
 
 Utilize os campos de seleção ao lado de cada conceito para indicar a alternativa correspondente.
 
-### 📌 Exemplo de relacionamento
+#### 📌 Exemplo de relacionamento
 
 - **Conceito 1** → Alternativa 1
 - **Conceito 2** → Alternativa 2
@@ -121,27 +121,27 @@ Dessa forma, o sistema registra a relação entre cada conceito e a alternativa 
 
 Na tela de **Montagem de Provas e Gabaritos**, o usuario pode criar uma avaliação utilizando as questões já disponíveis no sistema.
 
-### 📌 1º Passo
+#### 📌 1º Passo
 
 Informe o **nome da prova**.
 
-### 📌 2º Passo
+#### 📌 2º Passo
 
 Selecione a **disciplina** correspondente.
 
-### 📌 3º Passo
+#### 📌 3º Passo
 
 Informe o **valor da avaliação**.
 
-### 📌 4º Passo
+#### 📌 4º Passo
 
 Adicione as questões desejadas a partir do **banco de questões**.
 
-### 📌 5º Passo
+#### 📌 5º Passo
 
 Utilize o botão **Visualizar Prova** para conferir a avaliação.
 
-### 📌 6º Passo
+#### 📌 6º Passo
 
 Após conferir a prova, clique em **Salvar Prova** para finalizar o cadastro.
 
@@ -151,19 +151,19 @@ Após conferir a prova, clique em **Salvar Prova** para finalizar o cadastro.
 
 A área de **Alunos** permite ao usuário acessar as avaliações dos estudantes e realizar suas correções.
 
-### 📌 1º Passo
+#### 📌 1º Passo
 
 Acesse a área de **Alunos**.
 
-### 📌 2º Passo
+#### 📌 2º Passo
 
 Selecione a **disciplina** correspondente à prova que será corrigida.
 
-### 📌 3º Passo
+#### 📌 3º Passo
 
 Selecione o **aluno** desejado no portal de alunos.
 
-### 📌 4º Passo
+#### 📌 4º Passo
 
 As questões da prova serão apresentadas para correção.
 
