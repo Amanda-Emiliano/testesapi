@@ -28,7 +28,7 @@ INSERT INTO usuario (email, senha, foto, nome) VALUES
 ('gabriel.carvalho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Gabriel Carvalho'),
 ('geraldo.castro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Geraldo Castro'),
 ('samuel.castro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Samuel Castro'),
-('vinicius.conceicao@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Conceicao'),
+('vinicius.conceicao@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Conceição'),
 ('sergio.costa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sérgio Costa'),
 ('davi.cruz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Davi Cruz'),
 ('carlos.cruz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Carlos Cruz'),
@@ -115,7 +115,7 @@ INSERT INTO usuario (email, senha, foto, nome) VALUES
 ('daiane.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daiane Teixeira'),
 ('silvia.miranda@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sílvia Miranda'),
 ('sandra.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sandra Pires'),
-('amanda.correa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Amanda Correa'),
+('amanda.correa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Amanda Corrêa'),
 ('jessica.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jéssica Macedo'),
 ('barbara.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Bárbara Ribeiro'),
 ('marli.aguiar@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marli Aguiar'),
@@ -123,15 +123,15 @@ INSERT INTO usuario (email, senha, foto, nome) VALUES
 ('camila.monteiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Camila Monteiro'),
 ('fabiana.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fabiana Pires'),
 ('amanda.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Amanda Silveira'),
-('lara.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Goncalves'),
+('lara.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Gonçalves'),
 ('silvana.cardoso@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Cardoso'),
 ('julia.cardoso@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Júlia Cardoso'),
 ('sueli.moreira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sueli Moreira'),
 ('carla.pinto@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Carla Pinto'),
 ('solange.correia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Solange Correia'),
 ('sara.morais@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sara Morais'),
-('sueli.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sueli Goncalves'),
-('vanessa.franca@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vanessa Franca'),
+('sueli.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sueli Gonçalves'),
+('vanessa.franca@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vanessa França'),
 ('silvana.siqueira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Siqueira'),
 ('manuela.dias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Manuela Dias'),
 ('paula.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paula Barbosa'),
@@ -147,7 +147,7 @@ INSERT INTO usuario (email, senha, foto, nome) VALUES
 ('maria.guimaraes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Maria Guimarães'),
 ('alessandra.braga@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alessandra Braga'),
 ('lara.medeiros@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Medeiros'),
-('angela.marques@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Angela Marques'),
+('angela.marques@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ângela Marques'),
 ('monica.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Mônica Pires'),
 ('luciana.viana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Luciana Viana'),
 ('isabela.pinheiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Isabela Pinheiro'),
@@ -182,7 +182,7 @@ INSERT INTO usuario (email, senha, foto, nome) VALUES
 ('vanessa.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vanessa Barbosa'),
 ('marta.bezerra@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marta Bezerra'),
 ('regina.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Regina Ribeiro'),
-('rosangela.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Rosangela Macedo'),
+('rosangela.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Rosângela Macedo'),
 ('fabiana.farias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fabiana Farias'),
 ('renata.mendes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Renata Mendes'),
 ('michele.pereira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Michele Pereira'),
@@ -254,14 +254,14 @@ INSERT INTO disciplina (nome_disciplina, sigla_disciplina) VALUES
 INSERT INTO turma (id_turma, nome_curso, semestre, periodo, vigencia, nome_turma) VALUES
 (1, 'Banco de Dados', '1º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
 (2, 'Banco de Dados', '2º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
-(3, 'Banco de Dados', '3º', 'Noturno', '07/2026 a 12/2026'', 'Regular'),
+(3, 'Banco de Dados', '3º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
 (4, 'Banco de Dados', '4º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
 (5, 'Banco de Dados', '5º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
 (6, 'Banco de Dados', '6º', 'Noturno', '07/2026 a 12/2026', 'Regular'),
 
 (7, 'Análise e Desenvolvimento de Sistemas', '1º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (8, 'Análise e Desenvolvimento de Sistemas', '2º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
-(9, 'Análise e Desenvolvimento de Sistemas', '3º', 'Matutino', '07/2026 a 12/2026'', 'Regular'),
+(9, 'Análise e Desenvolvimento de Sistemas', '3º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (10, 'Análise e Desenvolvimento de Sistemas', '4º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (11, 'Análise e Desenvolvimento de Sistemas', '5º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (12, 'Análise e Desenvolvimento de Sistemas', '6º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
@@ -587,39 +587,42 @@ INSERT INTO turma_disciplina (id_turma, nome_disciplina) VALUES
 (4, 'Inglês II');
  
 -- ALUNOS EM TURMAS (pertence)
--- Todos: turmas Regular (1º e 2º sem.). Só Amanda e Vitória Vieira: também as turmas de Inglês.
+-- Todos: turmas 1 e 3. Só Jonas e Márcia: também as turmas 2 e 4 (Inglês).
 INSERT INTO pertence (RA, id_turma, nome_curso) VALUES
-('5615042599', 1, 'Banco de Dados'),
-('5615042599', 3, 'Banco de Dados'),
-('7279024339', 1, 'Banco de Dados'),
-('7279024339', 3, 'Banco de Dados'),
-('8658188467', 1, 'Banco de Dados'),
-('8658188467', 3, 'Banco de Dados'),
-('8658188467', 2, 'Banco de Dados'),
-('8658188467', 4, 'Banco de Dados'),
-('5699154762', 1, 'Banco de Dados'),
-('5699154762', 3, 'Banco de Dados'),
-('2727936184', 1, 'Banco de Dados'),
-('2727936184', 3, 'Banco de Dados'),
-('7052256714', 1, 'Banco de Dados'),
-('7052256714', 3, 'Banco de Dados'),
-('7052256714', 2, 'Banco de Dados'),
-('7052256714', 4, 'Banco de Dados'),
-('2241869216', 1, 'Banco de Dados'),
-('2241869216', 3, 'Banco de Dados');
+('3429843806', 1, 'Banco de Dados'),  
+('3429843806', 3, 'Banco de Dados'),
+('8089811057', 1, 'Banco de Dados'),  
+('8089811057', 3, 'Banco de Dados'),
+('3534589347', 1, 'Banco de Dados'),  
+('3534589347', 3, 'Banco de Dados'),
+('3534589347', 2, 'Banco de Dados'),
+('3534589347', 4, 'Banco de Dados'),
+('7070353682', 1, 'Banco de Dados'),  
+('7070353682', 3, 'Banco de Dados'),
+('3955057679', 1, 'Banco de Dados'),  
+('3955057679', 3, 'Banco de Dados'),
+('3737564015', 1, 'Banco de Dados'),  
+('3737564015', 3, 'Banco de Dados'),
+('3737564015', 2, 'Banco de Dados'),
+('3737564015', 4, 'Banco de Dados'),
+('3480944395', 1, 'Banco de Dados'),  
+('3480944395', 3, 'Banco de Dados');
  
 -- ========== QUESTÕES ==========
 INSERT INTO questao (enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
 -- Teresinha (Inglês I)
 ('Qual é o plural correto de "child" em inglês?', 'Plural de substantivos', 'alt', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
 ('Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'Apresentação pessoal', 'diss', 'Média', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
--- Emanuel (Arq. e Modelagem de BD)
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'Normalização', 'alt', 'Média', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados'),
-('Explique a diferença entre chave primária e chave estrangeira.', 'Chaves e integridade', 'diss', 'Média', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados'),
+('Relacione cada palavra em inglês à sua tradução em português.', 'Vocabulário básico', 'rela', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
+-- Emanuel (Análise e desenvolvimento de BD III)
+('Qual forma normal exige que não haja dependências parciais da chave primária?', 'Normalização', 'alt', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+('Explique a diferença entre chave primária e chave estrangeira.', 'Chaves e integridade', 'diss', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+('Relacione cada comando SQL à sua categoria.', 'Linguagem SQL', 'rela', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
 -- Giuliano (Eng. de Software I)
 ('Qual metodologia ágil organiza o trabalho em sprints?', 'Metodologias ágeis', 'alt', 'Fácil', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
-('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'Requisitos de software', 'diss', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I');
- 
+('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'Requisitos de software', 'diss', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
+('Relacione cada papel do Scrum à sua responsabilidade.', 'Metodologias ágeis', 'rela', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I');
+
 -- ========== RESPOSTAS ==========
 INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
 -- Teresinha: alternativa
@@ -629,7 +632,12 @@ INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
 ('Qual é o plural correto de "child" em inglês?', 'alt', 'childes', 0, NULL),
 -- Teresinha: dissertativa
 ('Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'diss', 'My name is Ana, I am 25 years old and I am a student.', NULL, NULL),
- 
+-- Teresinha: relacional (texto = item | conceito = par correto)
+('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Dog', NULL, 'Cachorro'),
+('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'House', NULL, 'Casa'),
+('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Book', NULL, 'Livro'),
+('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Water', NULL, 'Água'),
+
 -- Emanuel: alternativa
 ('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Segunda Forma Normal (2FN)', 1, NULL),
 ('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Primeira Forma Normal (1FN)', 0, NULL),
@@ -637,14 +645,23 @@ INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
 ('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Forma Normal de Boyce-Codd (BCNF)', 0, NULL),
 -- Emanuel: dissertativa
 ('Explique a diferença entre chave primária e chave estrangeira.', 'diss', 'A PK identifica cada registro; a FK referencia a PK de outra tabela e garante integridade.', NULL, NULL),
- 
+-- Emanuel: relacional
+('Relacione cada comando SQL à sua categoria.', 'rela', 'CREATE TABLE', NULL, 'DDL'),
+('Relacione cada comando SQL à sua categoria.', 'rela', 'INSERT', NULL, 'DML'),
+('Relacione cada comando SQL à sua categoria.', 'rela', 'GRANT', NULL, 'DCL'),
+('Relacione cada comando SQL à sua categoria.', 'rela', 'COMMIT', NULL, 'TCL'),
+
 -- Giuliano: alternativa
 ('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Scrum', 1, NULL),
 ('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Cascata', 0, NULL),
 ('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Modelo em V', 0, NULL),
 ('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Espiral', 0, NULL),
 -- Giuliano: dissertativa
-('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'diss', 'Funcionais descrevem o que o sistema faz; não funcionais definem qualidade, como desempenho.', NULL, NULL);
+('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'diss', 'Funcionais descrevem o que o sistema faz; não funcionais definem qualidade, como desempenho.', NULL, NULL),
+-- Giuliano: relacional
+('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Product Owner', NULL, 'Prioriza o backlog do produto'),
+('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Scrum Master', NULL, 'Facilita o processo e remove impedimentos'),
+('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Developers', NULL, 'Constroem o incremento do produto');
  
 -- ========== PROVAS ==========
 INSERT INTO prova (nome_prova, dificuldade, valor, email_professor, nome_disciplina) VALUES
@@ -709,9 +726,9 @@ JOIN questao q
 INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario)
 SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario
 FROM (
-    SELECT 2 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-03-18' AS data, '19:30:00' AS horario
+    SELECT 2 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-09-18' AS data, '19:30:00' AS horario
     UNION ALL
-    SELECT 2, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-05-20', '19:30:00'
+    SELECT 2, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-08-20', '19:30:00'
     UNION ALL
     SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '19:30:00'
     UNION ALL
@@ -727,7 +744,11 @@ JOIN prova p
  AND p.nome_disciplina = v.nome_disciplina;
  
  
- 
+ -- ========== ALUNOS CONVOCADOS PARA CADA APLICAÇÃO ==========
+INSERT INTO prova_aluno (id_aplicacao, id_turma, RA)
+SELECT pt.id_aplicacao, pt.id_turma, pe.RA
+FROM prova_turma pt
+JOIN pertence pe ON pe.id_turma = pt.id_turma;
  
  
 -- ========== CONFERÊNCIA ==========
