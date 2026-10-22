@@ -769,6 +769,7 @@ SELECT * FROM pertence;
 SELECT * FROM questao;
 SELECT * FROM resposta;
 SELECT * FROM prova;
+SELECT * FROM prova_aluno;
 
 SELECT * FROM prova_questao;
 SELECT * FROM prova_turma;
