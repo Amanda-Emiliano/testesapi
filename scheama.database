@@ -580,9 +580,9 @@ INSERT INTO curso_disciplina (nome_curso, nome_disciplina) VALUES
  
 -- DISCIPLINAS DE CADA TURMA
 INSERT INTO turma_disciplina (id_turma, nome_disciplina) VALUES
-(1, 'Arquitetura e Organização de Computadores'),
+(1, 'Arquitetura e Organização I'),
 (2, 'Inglês I'),
-(3, 'Arquitetura e Modelagem de Banco de Dados'),
+(3, 'Análise e desenvolvimento de Banco de Dados III'),
 (3, 'Engenharia de Software I'),
 (4, 'Inglês II');
  
@@ -650,13 +650,12 @@ INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
 INSERT INTO prova (nome_prova, dificuldade, valor, email_professor, nome_disciplina) VALUES
 ('Prova 1', 'facil', 10.00, 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
 ('Prova 2', 'media', 10.00, 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
-('Prova 1', 'media', 10.00, 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados'),
-('Prova 2', 'media', 10.00, 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados'),
+('Prova 1', 'media', 10.00, 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+('Prova 2', 'media', 10.00, 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
 ('Prova 1', 'facil', 10.00, 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
-('Prova 2', 'media', 10.00, 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I');
- 
-INSERT INTO prova (nome_prova, dificuldade, valor, email_professor, nome_disciplina) VALUES
+('Prova 2', 'media', 10.00, 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
 ('Prova 1', 'facil', 10.00, 'teresinha.fatima@prof.fatec.com', 'Inglês II');
+
  
 -- ========== QUESTÕES DAS PROVAS ==========
 INSERT INTO prova_questao (prova_id, questao_id, email_professor, nome_disciplina, peso)
@@ -674,16 +673,16 @@ FROM (
     SELECT 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I',
            'Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'diss', 5.00
     UNION ALL
-    SELECT 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados',
+    SELECT 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III',
            'Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 4.00
     UNION ALL
-    SELECT 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados',
+    SELECT 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III',
            'Explique a diferença entre chave primária e chave estrangeira.', 'diss', 6.00
     UNION ALL
-    SELECT 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados',
+    SELECT 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III',
            'Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 5.00
     UNION ALL
-    SELECT 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados',
+    SELECT 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III',
            'Explique a diferença entre chave primária e chave estrangeira.', 'diss', 5.00
     UNION ALL
     SELECT 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I',
@@ -707,16 +706,16 @@ JOIN questao q
  AND q.tipo = v.tipo;
 
 -- ========= PROVA aplicada TURMA =============
-INSERT INTO prova_turma (prova_id, id_turma, nome_prova, email_professor, nome_disciplina, data, horario)
-SELECT p.prova_id, v.id_turma, p.nome_prova, p.email_professor, p.nome_disciplina, v.data, v.horario
+INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario)
+SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario
 FROM (
     SELECT 2 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-03-18' AS data, '19:30:00' AS horario
     UNION ALL
     SELECT 2, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-05-20', '19:30:00'
     UNION ALL
-    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados', '2026-10-14', '19:30:00'
+    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '19:30:00'
     UNION ALL
-    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Arquitetura e Modelagem de Banco de Dados', '2026-11-18', '19:30:00'
+    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-11-18', '19:30:00'
     UNION ALL
     SELECT 3, 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-10-15', '19:30:00'
     UNION ALL
@@ -726,8 +725,6 @@ JOIN prova p
   ON p.nome_prova = v.nome_prova
  AND p.email_professor = v.email_professor
  AND p.nome_disciplina = v.nome_disciplina;
- 
- 
  
  
  
