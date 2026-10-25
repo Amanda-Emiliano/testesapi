@@ -89,47 +89,28 @@ A questão ficará disponível para ser utilizada na montagem de provas.
 
 ---
 
-### 🔗 2.3 Questão de Relacionamento entre Colunas
+### 🔘 2.3 Questão de Relacionamento de Colunas
 
-Nesse tipo de questão, o objetivo é fazer com que o aluno **relacione cada conceito à definição correspondente**.
+Para cadastrar uma questão de relacionamento de colunas:
 
-As alternativas devem ser apresentadas no próprio **enunciado da questão**, identificadas de **1 a 4**.
+📌 **1º Passo**  
+Selecione a disciplina, o tema e a dificuldade desejados nos menus no início da página.
 
-#### 📌 Exemplo
+📌 **2º Passo**  
+Preencha o campo **Enunciado** com a pergunta da questão.
 
-**Enunciado:**
+📌 **3º Passo**  
+Preencha os campos de textos e conceitos, formando os pares que deverão ser relacionados.
 
-> Relacione os conceitos do Scrum às suas respectivas definições
->
-> **Alternativas:**
->
-> 1. W
-> 2. X
-> 3. Y
-> 4. Z
+📌 **4º Passo**  
+Em cada campo **Associa a**, selecione o conceito correspondente ao texto informado.
 
-#### 📌 1º Passo
+📌 **5º Passo**  
+Clique em **Salvar Questão** para finalizar o cadastro.
 
-Selecione, nos menus no início da página, a **disciplina**, **tema** e **dificuldade** desejados.
+A questão ficará disponível para ser utilizada na montagem de provas.
 
-#### 📌 2º Passo
-
-Preencha os campos de **Conceito 1, Conceito 2, Conceito 3 e Conceito 4** com os itens que deverão ser relacionados.
-
-#### 📌 3º Passo
-
-Utilize os campos de seleção ao lado de cada conceito para indicar a alternativa correspondente.
-
-#### 📌 Exemplo de relacionamento
-
-- **Conceito 1** → Alternativa 1
-- **Conceito 2** → Alternativa 2
-- **Conceito 3** → Alternativa 3
-- **Conceito 4** → Alternativa 4
-
-Dessa forma, o sistema registra a relação entre cada conceito e a alternativa correspondente apresentada no enunciado.
-
-> ⚠️ **Atenção:** as alternativas devem ser identificadas de 1 a 4 no enunciado, pois essas identificações são utilizadas pelos campos de seleção da tela.
+⚠️ **Atenção:** preencha pelo menos dois pares completos, informando o texto, o conceito e a associação correspondente. Cada conceito pode ser associado a apenas um texto.
 
 ---
 
