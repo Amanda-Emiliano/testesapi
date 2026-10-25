@@ -17,4 +17,3 @@ Para manter o histórico do projeto organizado e facilitar a identificação das
 | `chore`    | Atualizações e tarefas menores que não impactam diretamente a funcionalidade do código. | `chore: atualização das dependências do projeto no package.json`                                   |
 
 
-
