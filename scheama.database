@@ -723,20 +723,20 @@ JOIN questao q
  AND q.tipo = v.tipo;
 
 -- ========= PROVA aplicada TURMA =============
-INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario)
-SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario
+INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario, horario_fim)
+SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario, v.horario_fim
 FROM (
-    SELECT 2 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-09-18' AS data, '19:30:00' AS horario
+    SELECT 2 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-09-18' AS data, '19:35:00' AS horario, '21:15:00' AS horario_fim
     UNION ALL
-    SELECT 2, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-08-20', '19:30:00'
+    SELECT 2, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-08-20', '19:35:00', '21:15:00'
     UNION ALL
-    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '19:30:00'
+    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '21:25:00', '23:05:00'
     UNION ALL
-    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-11-18', '19:30:00'
+    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-11-18', '21:25:00', '23:05:00'
     UNION ALL
-    SELECT 3, 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-10-15', '19:30:00'
+    SELECT 3, 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-10-15', '19:30:00', '21:15:00'
     UNION ALL
-    SELECT 3, 'Prova 2', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-11-19', '19:30:00'
+    SELECT 3, 'Prova 2', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-11-19', '19:30:00', '21:15:00'
 ) AS v
 JOIN prova p
   ON p.nome_prova = v.nome_prova
