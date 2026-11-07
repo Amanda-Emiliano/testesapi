@@ -1218,3 +1218,4 @@ SELECT * FROM prova_aluno;
 
 SELECT * FROM prova_questao;
 SELECT * FROM prova_turma;
+SELECT * FROM resposta_aluno;
