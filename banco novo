@@ -238,34 +238,30 @@ CREATE TABLE prova_aluno ( -- alunos convocados para a aplicação (turma toda o
 CREATE TABLE resposta_aluno (
     id_resposta_aluno BIGINT NOT NULL AUTO_INCREMENT,
     id_aplicacao      BIGINT NOT NULL,
-    prova_id          BIGINT NOT NULL,     
+    prova_id          BIGINT NOT NULL,
     RA                VARCHAR(20) NOT NULL,
     questao_id        BIGINT NOT NULL,
     resposta_id       BIGINT NULL,            -- alt: alternativa marcada | diss e rela: NULL
-    texto_resposta    TEXT NULL,              -- diss: texto digitado 
-    correta           BOOLEAN NULL,
-    nota_obtida       DECIMAL(5,2) NULL,
+    texto_resposta    TEXT NULL,              -- diss: texto digitado | rela: pares (ex.: JSON)
+    correta           BOOLEAN NULL,           -- NULL = ainda não corrigida
 
     PRIMARY KEY (id_resposta_aluno),
 
     CONSTRAINT uq_resposta_aluno UNIQUE (id_aplicacao, RA, questao_id),
 
-    CONSTRAINT ck_ra_correta
-        CHECK (correta IS NULL OR nota_obtida IS NOT NULL),   -- preenche conforme a correção
-
     CONSTRAINT fk_ra_prova_aluno
         FOREIGN KEY (id_aplicacao, RA)
         REFERENCES prova_aluno (id_aplicacao, RA),
 
-    CONSTRAINT fk_ra_aplicacao_prova          
+    CONSTRAINT fk_ra_aplicacao_prova
         FOREIGN KEY (id_aplicacao, prova_id)
         REFERENCES prova_turma (id_aplicacao, prova_id),
 
-    CONSTRAINT fk_ra_prova_questao            
+    CONSTRAINT fk_ra_prova_questao
         FOREIGN KEY (prova_id, questao_id)
         REFERENCES prova_questao (prova_id, questao_id),
 
-    CONSTRAINT fk_ra_resposta                 
+    CONSTRAINT fk_ra_resposta
         FOREIGN KEY (resposta_id, questao_id)
         REFERENCES resposta (resposta_id, questao_id)
 );
