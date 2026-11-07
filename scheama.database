@@ -1195,6 +1195,164 @@ JOIN aluno a ON a.email IN ('yasmin.alves@aluno.fatec.com', 'joaquim.brito@aluno
 JOIN pertence pe ON pe.RA = a.RA AND pe.id_turma = pt.id_turma
 WHERE p.nome_prova = 'Recuperação' AND p.email_professor = 'adriana.silva@prof.fatec.com' AND p.nome_disciplina = 'Desenvolvimento Web I';
 
+-- RESPOSTA ALUNOS
+
+INSERT INTO resposta_aluno
+    (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta)
+
+-- QUESTÕES DE MÚLTIPLA ESCOLHA (ALT)
+
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, r.resposta_id, NULL, NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Qual é a principal função do kernel em um sistema operacional?'
+   AND q.tipo = 'alt'
+JOIN resposta r
+    ON r.questao_id = q.questao_id
+   AND r.texto = 'Editar documentos de texto'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, r.resposta_id, NULL, NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Qual tag HTML define o título principal de uma página?'
+   AND q.tipo = 'alt'
+JOIN resposta r
+    ON r.questao_id = q.questao_id
+   AND r.texto = '<h1>'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13
+
+UNION ALL
+
+-- QUESTÕES DISSERTATIVAS (DISS)
+
+
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    'Um processo possui seu próprio espaço de memória, enquanto as threads compartilham a memória e os recursos do processo.',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Explique a diferença entre processo e thread.'
+   AND q.tipo = 'diss'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    'HTML é utilizado para estruturar o conteúdo da página, enquanto CSS define sua aparência, cores, fontes e organização visual.',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Explique a diferença entre HTML e CSS.'
+   AND q.tipo = 'diss'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13
+
+UNION ALL
+
+
+-- QUESTÕES RELACIONAMENTO
+
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    '[{"item":"ls","ligou":"Lista arquivos e diretórios"},{"item":"cd","ligou":"Muda de diretório"},{"item":"mkdir","ligou":"Cria um diretório"},{"item":"rm","ligou":"Remove arquivos"}]',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Relacione cada comando do Linux à sua função.'
+   AND q.tipo = 'rela'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    '[{"item":"HTML","ligou":"Estrutura da página"},{"item":"CSS","ligou":"Estilo e layout"},{"item":"JavaScript","ligou":"Comportamento e interatividade"},{"item":"HTTP","ligou":"Protocolo de comunicação entre cliente e servidor"}]',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Relacione cada tecnologia web à sua função.'
+   AND q.tipo = 'rela'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13;
+
+
 
 -- ========== CONFERÊNCIA ==========
 
