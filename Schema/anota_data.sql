@@ -4,194 +4,195 @@
 INSERT INTO usuario (email, senha, foto, nome) VALUES
 
   -- PROFESSORES
-('teresinha.fatima@prof.fatec.com', 'senha.prof.1234', NULL, 'Teresinha de Fátima'),
-('emanuel.mineda@prof.fatec.com', 'senha.prof.1234', NULL, 'Emanuel Mineda'),
-('giuliano.bertoti@prof.fatec.com', 'senha.prof.1234', NULL, 'Giuliano Bertoti'),
-('fabiano.sabha@prof.fatec.com', 'senha.prof.1234', NULL, 'Fabiano Sabha'),
-('adriana.silva@prof.fatec.com', 'senha.prof.1234', NULL, 'Adriana Silva'),
-('felipe.lemes@prof.fatec.com', 'senha.prof.1234', NULL, 'Felipe Lemes'), -- teste, sem disciplinas
+('teresinha.fatima@prof.fatec.com', 'senha', NULL, 'Teresinha de Fátima'),
+('emanuel.mineda@prof.fatec.com', 'senha', NULL, 'Emanuel Mineda'),
+('giuliano.bertoti@prof.fatec.com', 'senha', NULL, 'Giuliano Bertoti'),
+('fabiano.sabha@prof.fatec.com', 'senha', NULL, 'Fabiano Sabha'),
+('adriana.silva@prof.fatec.com', 'senha', NULL, 'Adriana Silva'),
+('felipe.lemes@prof.fatec.com', 'senha', NULL, 'Felipe Lemes'), -- teste, sem disciplinas
  
   -- ALUNOS
-('artur.almeida@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Artur Almeida'),
-('raimundo.araujo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Raimundo Araújo'),
-('renato.araujo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Renato Araújo'),
-('jonas.araujo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jonas Araújo'),
-('joao.assis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'João Assis'),
-('vinicius.assis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Assis'),
-('alexandre.assis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alexandre Assis'),
-('wesley.assis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Wesley Assis'),
-('matheus.barros@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Matheus Barros'),
-('matheus.vieira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Matheus Vieira'),
-('joaquim.brito@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Joaquim Brito'),
-('alex.brito@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alex Brito'),
-('marco.carvalho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marco Carvalho'),
-('gabriel.carvalho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Gabriel Carvalho'),
-('geraldo.castro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Geraldo Castro'),
-('samuel.castro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Samuel Castro'),
-('vinicius.conceicao@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Conceição'),
-('sergio.costa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sérgio Costa'),
-('davi.cruz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Davi Cruz'),
-('carlos.cruz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Carlos Cruz'),
-('thiago.cunha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Thiago Cunha'),
-('ronaldo.cunha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ronaldo Cunha'),
-('heitor.cunha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Heitor Cunha'),
-('edson.cunha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Edson Cunha'),
-('willian.fonseca@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Willian Fonseca'),
-('willian.freitas@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Willian Freitas'),
-('sergio.lima@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sérgio Lima'),
-('valdir.lima@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Valdir Lima'),
-('jeferson.lima@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jeferson Lima'),
-('vinicius.lima@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Lima'),
-('david.matos@aluno.fatec.com', 'senha.aluno.1234', NULL, 'David Matos'),
-('jean.melo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jean Melo'),
-('diogo.melo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Diogo Melo'),
-('ruan.moraes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ruan Moraes'),
-('fabio.moura@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fábio Moura'),
-('luciano.moura@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Luciano Moura'),
-('gilberto.moura@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Gilberto Moura'),
-('luciano.neves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Luciano Neves'),
-('diogo.oliveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Diogo Oliveira'),
-('elias.oliveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Elias Oliveira'),
-('manoel.reis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Manoel Reis'),
-('edson.reis@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Edson Reis'),
-('bernardo.rocha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Bernardo Rocha'),
-('kauan.rocha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Kauan Rocha'),
-('emerson.rocha@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Emerson Rocha'),
-('felipe.rosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Felipe Rosa'),
-('vitor.rosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vitor Rosa'),
-('robson.rosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Robson Rosa'),
-('jose.santos@aluno.fatec.com', 'senha.aluno.1234', NULL, 'José Santos'),
-('francisco.sousa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Francisco Sousa'),
-('wesley.sousa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Wesley Sousa'),
-('alex.sousa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alex Sousa'),
-('robson.sousa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Robson Sousa'),
-('eduardo.souza@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Eduardo Souza'),
-('davi.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Davi Pires'),
-('victor.pinheiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Victor Pinheiro'),
-('adriano.amaral@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Adriano Amaral'),
-('paulo.correia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paulo Correia'),
-('leonardo.correia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Leonardo Correia'),
-('edson.mota@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Edson Mota'),
-('roberto.garcia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Roberto Garcia'),
-('manoel.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Manoel Silveira'),
-('andre.nunes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'André Nunes'),
-('ronaldo.dias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ronaldo Dias'),
-('adriano.cavalcante@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Adriano Cavalcante'),
-('benedito.dias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Benedito Dias'),
-('ronaldo.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ronaldo Teixeira'),
-('matheus.dias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Matheus Dias'),
-('roberto.menezes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Roberto Menezes'),
-('marcos.bezerra@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marcos Bezerra'),
-('paulo.amorim@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paulo Amorim'),
-('joaquim.viana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Joaquim Viana'),
-('jose.batista@aluno.fatec.com', 'senha.aluno.1234', NULL, 'José Batista'),
-('vinicius.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vinícius Pires'),
-('paulo.medeiros@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paulo Medeiros'),
-('alexandre.tavares@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alexandre Tavares'),
-('ricardo.guimaraes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ricardo Guimarães'),
-('kauan.duarte@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Kauan Duarte'),
-('marcos.fernandes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marcos Fernandes'),
-('pedro.moreira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Pedro Moreira'),
-('marcio.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Márcio Silveira'),
-('flavio.queiroz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Flávio Queiroz'),
-('claudio.soares@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Cláudio Soares'),
-('artur.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Artur Ribeiro'),
-('manuel.viana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Manuel Viana'),
-('murilo.morais@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Murilo Morais'),
-('marcos.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marcos Teixeira'),
-('marcelo.aguiar@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marcelo Aguiar'),
-('enzo.viana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Enzo Viana'),
-('julio.moreira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Júlio Moreira'),
-('lara.pereira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Pereira'),
-('claudia.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Cláudia Barbosa'),
-('gabriela.coelho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Gabriela Coelho'),
-('daniele.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daniele Teixeira'),
-('sofia.coelho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sofia Coelho'),
-('yasmin.alves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Yasmin Alves'),
-('daiane.tavares@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daiane Tavares'),
-('marcia.filho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Márcia Filho'),
-('jessica.queiroz@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jéssica Queiroz'),
-('gabriela.monteiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Gabriela Monteiro'),
-('daiane.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daiane Teixeira'),
-('silvia.miranda@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sílvia Miranda'),
-('sandra.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sandra Pires'),
-('amanda.correa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Amanda Corrêa'),
-('jessica.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jéssica Macedo'),
-('barbara.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Bárbara Ribeiro'),
-('marli.aguiar@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marli Aguiar'),
-('luiza.pinheiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Luíza Pinheiro'),
-('camila.monteiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Camila Monteiro'),
-('fabiana.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fabiana Pires'),
-('amanda.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Amanda Silveira'),
-('lara.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Gonçalves'),
-('silvana.cardoso@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Cardoso'),
-('julia.cardoso@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Júlia Cardoso'),
-('sueli.moreira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sueli Moreira'),
-('carla.pinto@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Carla Pinto'),
-('solange.correia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Solange Correia'),
-('sara.morais@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sara Morais'),
-('sueli.goncalves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Sueli Gonçalves'),
-('vanessa.franca@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vanessa França'),
-('silvana.siqueira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Siqueira'),
-('manuela.dias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Manuela Dias'),
-('paula.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paula Barbosa'),
-('michele.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Michele Barbosa'),
-('alice.mota@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alice Mota'),
-('yasmin.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Yasmin Teixeira'),
-('daniele.coelho@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daniele Coelho'),
-('larissa.garcia@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Larissa Garcia'),
-('tatiane.lopes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Tatiane Lopes'),
-('silvana.lopes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Lopes'),
-('paula.mendes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paula Mendes'),
-('paula.siqueira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paula Siqueira'),
-('maria.guimaraes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Maria Guimarães'),
-('alessandra.braga@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alessandra Braga'),
-('lara.medeiros@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Medeiros'),
-('angela.marques@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ângela Marques'),
-('monica.pires@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Mônica Pires'),
-('luciana.viana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Luciana Viana'),
-('isabela.pinheiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Isabela Pinheiro'),
-('daniele.morais@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daniele Morais'),
-('patricia.braga@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Patrícia Braga'),
-('julia.henrique@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Júlia Henrique'),
-('renata.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Renata Silveira'),
-('michele.leite@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Michele Leite'),
-('daiane.sales@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daiane Sales'),
-('lara.martins@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Lara Martins'),
-('raquel.alves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Raquel Alves'),
-('francisca.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Francisca Macedo'),
-('yasmin.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Yasmin Barbosa'),
-('aline.bezerra@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Aline Bezerra'),
-('marta.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marta Ribeiro'),
-('jessica.martins@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Jéssica Martins'),
-('simone.farias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Simone Farias'),
-('eduarda.mendes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Eduarda Mendes'),
-('paula.pereira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Paula Pereira'),
-('thais.braga@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Thaís Braga'),
-('francisca.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Francisca Teixeira'),
-('isadora.siqueira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Isadora Siqueira'),
-('julia.aguiar@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Júlia Aguiar'),
-('silvana.gomes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Silvana Gomes'),
-('thais.santana@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Thaís Santana'),
-('milena.silveira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Milena Silveira'),
-('leticia.leite@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Letícia Leite'),
-('maria.sales@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Maria Sales'),
-('daiane.martins@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Daiane Martins'),
-('claudia.alves@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Cláudia Alves'),
-('ana.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Ana Macedo'),
-('vanessa.barbosa@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Vanessa Barbosa'),
-('marta.bezerra@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Marta Bezerra'),
-('regina.ribeiro@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Regina Ribeiro'),
-('rosangela.macedo@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Rosângela Macedo'),
-('fabiana.farias@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fabiana Farias'),
-('renata.mendes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Renata Mendes'),
-('michele.pereira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Michele Pereira'),
-('janaina.braga@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Janaína Braga'),
-('alice.teixeira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Alice Teixeira'),
-('fernanda.siqueira@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Fernanda Siqueira'),
-('edna.aguiar@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Edna Aguiar'),
-('janaina.gomes@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Janaína Gomes'),
-('thais.soares@aluno.fatec.com', 'senha.aluno.1234', NULL, 'Thaís Soares');
+ ('ada.lovelace@aluno.fatec.com', 'senha', NULL, 'Ada Lovelace'), -- para fins de teste, não alocada, não apagar
+('artur.almeida@aluno.fatec.com', 'senha', NULL, 'Artur Almeida'),
+('raimundo.araujo@aluno.fatec.com', 'senha', NULL, 'Raimundo Araújo'),
+('renato.araujo@aluno.fatec.com', 'senha', NULL, 'Renato Araújo'),
+('jonas.araujo@aluno.fatec.com', 'senha', NULL, 'Jonas Araújo'),
+('joao.assis@aluno.fatec.com', 'senha', NULL, 'João Assis'),
+('vinicius.assis@aluno.fatec.com', 'senha', NULL, 'Vinícius Assis'),
+('alexandre.assis@aluno.fatec.com', 'senha', NULL, 'Alexandre Assis'),
+('wesley.assis@aluno.fatec.com', 'senha', NULL, 'Wesley Assis'),
+('matheus.barros@aluno.fatec.com', 'senha', NULL, 'Matheus Barros'),
+('matheus.vieira@aluno.fatec.com', 'senha', NULL, 'Matheus Vieira'),
+('joaquim.brito@aluno.fatec.com', 'senha', NULL, 'Joaquim Brito'),
+('alex.brito@aluno.fatec.com', 'senha', NULL, 'Alex Brito'),
+('marco.carvalho@aluno.fatec.com', 'senha', NULL, 'Marco Carvalho'),
+('gabriel.carvalho@aluno.fatec.com', 'senha', NULL, 'Gabriel Carvalho'),
+('geraldo.castro@aluno.fatec.com', 'senha', NULL, 'Geraldo Castro'),
+('samuel.castro@aluno.fatec.com', 'senha', NULL, 'Samuel Castro'),
+('vinicius.conceicao@aluno.fatec.com', 'senha', NULL, 'Vinícius Conceição'),
+('sergio.costa@aluno.fatec.com', 'senha', NULL, 'Sérgio Costa'),
+('davi.cruz@aluno.fatec.com', 'senha', NULL, 'Davi Cruz'),
+('carlos.cruz@aluno.fatec.com', 'senha', NULL, 'Carlos Cruz'),
+('thiago.cunha@aluno.fatec.com', 'senha', NULL, 'Thiago Cunha'),
+('ronaldo.cunha@aluno.fatec.com', 'senha', NULL, 'Ronaldo Cunha'),
+('heitor.cunha@aluno.fatec.com', 'senha', NULL, 'Heitor Cunha'),
+('edson.cunha@aluno.fatec.com', 'senha', NULL, 'Edson Cunha'),
+('willian.fonseca@aluno.fatec.com', 'senha', NULL, 'Willian Fonseca'),
+('willian.freitas@aluno.fatec.com', 'senha', NULL, 'Willian Freitas'),
+('sergio.lima@aluno.fatec.com', 'senha', NULL, 'Sérgio Lima'),
+('valdir.lima@aluno.fatec.com', 'senha', NULL, 'Valdir Lima'),
+('jeferson.lima@aluno.fatec.com', 'senha', NULL, 'Jeferson Lima'),
+('vinicius.lima@aluno.fatec.com', 'senha', NULL, 'Vinícius Lima'),
+('david.matos@aluno.fatec.com', 'senha', NULL, 'David Matos'),
+('jean.melo@aluno.fatec.com', 'senha', NULL, 'Jean Melo'),
+('diogo.melo@aluno.fatec.com', 'senha', NULL, 'Diogo Melo'),
+('ruan.moraes@aluno.fatec.com', 'senha', NULL, 'Ruan Moraes'),
+('fabio.moura@aluno.fatec.com', 'senha', NULL, 'Fábio Moura'),
+('luciano.moura@aluno.fatec.com', 'senha', NULL, 'Luciano Moura'),
+('gilberto.moura@aluno.fatec.com', 'senha', NULL, 'Gilberto Moura'),
+('luciano.neves@aluno.fatec.com', 'senha', NULL, 'Luciano Neves'),
+('diogo.oliveira@aluno.fatec.com', 'senha', NULL, 'Diogo Oliveira'),
+('elias.oliveira@aluno.fatec.com', 'senha', NULL, 'Elias Oliveira'),
+('manoel.reis@aluno.fatec.com', 'senha', NULL, 'Manoel Reis'),
+('edson.reis@aluno.fatec.com', 'senha', NULL, 'Edson Reis'),
+('bernardo.rocha@aluno.fatec.com', 'senha', NULL, 'Bernardo Rocha'),
+('kauan.rocha@aluno.fatec.com', 'senha', NULL, 'Kauan Rocha'),
+('emerson.rocha@aluno.fatec.com', 'senha', NULL, 'Emerson Rocha'),
+('felipe.rosa@aluno.fatec.com', 'senha', NULL, 'Felipe Rosa'),
+('vitor.rosa@aluno.fatec.com', 'senha', NULL, 'Vitor Rosa'),
+('robson.rosa@aluno.fatec.com', 'senha', NULL, 'Robson Rosa'),
+('jose.santos@aluno.fatec.com', 'senha', NULL, 'José Santos'),
+('francisco.sousa@aluno.fatec.com', 'senha', NULL, 'Francisco Sousa'),
+('wesley.sousa@aluno.fatec.com', 'senha', NULL, 'Wesley Sousa'),
+('alex.sousa@aluno.fatec.com', 'senha', NULL, 'Alex Sousa'),
+('robson.sousa@aluno.fatec.com', 'senha', NULL, 'Robson Sousa'),
+('eduardo.souza@aluno.fatec.com', 'senha', NULL, 'Eduardo Souza'),
+('davi.pires@aluno.fatec.com', 'senha', NULL, 'Davi Pires'),
+('victor.pinheiro@aluno.fatec.com', 'senha', NULL, 'Victor Pinheiro'),
+('adriano.amaral@aluno.fatec.com', 'senha', NULL, 'Adriano Amaral'),
+('paulo.correia@aluno.fatec.com', 'senha', NULL, 'Paulo Correia'),
+('leonardo.correia@aluno.fatec.com', 'senha', NULL, 'Leonardo Correia'),
+('edson.mota@aluno.fatec.com', 'senha', NULL, 'Edson Mota'),
+('roberto.garcia@aluno.fatec.com', 'senha', NULL, 'Roberto Garcia'),
+('manoel.silveira@aluno.fatec.com', 'senha', NULL, 'Manoel Silveira'),
+('andre.nunes@aluno.fatec.com', 'senha', NULL, 'André Nunes'),
+('ronaldo.dias@aluno.fatec.com', 'senha', NULL, 'Ronaldo Dias'),
+('adriano.cavalcante@aluno.fatec.com', 'senha', NULL, 'Adriano Cavalcante'),
+('benedito.dias@aluno.fatec.com', 'senha', NULL, 'Benedito Dias'),
+('ronaldo.teixeira@aluno.fatec.com', 'senha', NULL, 'Ronaldo Teixeira'),
+('matheus.dias@aluno.fatec.com', 'senha', NULL, 'Matheus Dias'),
+('roberto.menezes@aluno.fatec.com', 'senha', NULL, 'Roberto Menezes'),
+('marcos.bezerra@aluno.fatec.com', 'senha', NULL, 'Marcos Bezerra'),
+('paulo.amorim@aluno.fatec.com', 'senha', NULL, 'Paulo Amorim'),
+('joaquim.viana@aluno.fatec.com', 'senha', NULL, 'Joaquim Viana'),
+('jose.batista@aluno.fatec.com', 'senha', NULL, 'José Batista'),
+('vinicius.pires@aluno.fatec.com', 'senha', NULL, 'Vinícius Pires'),
+('paulo.medeiros@aluno.fatec.com', 'senha', NULL, 'Paulo Medeiros'),
+('alexandre.tavares@aluno.fatec.com', 'senha', NULL, 'Alexandre Tavares'),
+('ricardo.guimaraes@aluno.fatec.com', 'senha', NULL, 'Ricardo Guimarães'),
+('kauan.duarte@aluno.fatec.com', 'senha', NULL, 'Kauan Duarte'),
+('marcos.fernandes@aluno.fatec.com', 'senha', NULL, 'Marcos Fernandes'),
+('pedro.moreira@aluno.fatec.com', 'senha', NULL, 'Pedro Moreira'),
+('marcio.silveira@aluno.fatec.com', 'senha', NULL, 'Márcio Silveira'),
+('flavio.queiroz@aluno.fatec.com', 'senha', NULL, 'Flávio Queiroz'),
+('claudio.soares@aluno.fatec.com', 'senha', NULL, 'Cláudio Soares'),
+('artur.ribeiro@aluno.fatec.com', 'senha', NULL, 'Artur Ribeiro'),
+('manuel.viana@aluno.fatec.com', 'senha', NULL, 'Manuel Viana'),
+('murilo.morais@aluno.fatec.com', 'senha', NULL, 'Murilo Morais'),
+('marcos.teixeira@aluno.fatec.com', 'senha', NULL, 'Marcos Teixeira'),
+('marcelo.aguiar@aluno.fatec.com', 'senha', NULL, 'Marcelo Aguiar'),
+('enzo.viana@aluno.fatec.com', 'senha', NULL, 'Enzo Viana'),
+('julio.moreira@aluno.fatec.com', 'senha', NULL, 'Júlio Moreira'),
+('lara.pereira@aluno.fatec.com', 'senha', NULL, 'Lara Pereira'),
+('claudia.barbosa@aluno.fatec.com', 'senha', NULL, 'Cláudia Barbosa'),
+('gabriela.coelho@aluno.fatec.com', 'senha', NULL, 'Gabriela Coelho'),
+('daniele.teixeira@aluno.fatec.com', 'senha', NULL, 'Daniele Teixeira'),
+('sofia.coelho@aluno.fatec.com', 'senha', NULL, 'Sofia Coelho'),
+('yasmin.alves@aluno.fatec.com', 'senha', NULL, 'Yasmin Alves'),
+('daiane.tavares@aluno.fatec.com', 'senha', NULL, 'Daiane Tavares'),
+('marcia.filho@aluno.fatec.com', 'senha', NULL, 'Márcia Filho'),
+('jessica.queiroz@aluno.fatec.com', 'senha', NULL, 'Jéssica Queiroz'),
+('gabriela.monteiro@aluno.fatec.com', 'senha', NULL, 'Gabriela Monteiro'),
+('daiane.teixeira@aluno.fatec.com', 'senha', NULL, 'Daiane Teixeira'),
+('silvia.miranda@aluno.fatec.com', 'senha', NULL, 'Sílvia Miranda'),
+('sandra.pires@aluno.fatec.com', 'senha', NULL, 'Sandra Pires'),
+('amanda.correa@aluno.fatec.com', 'senha', NULL, 'Amanda Corrêa'),
+('jessica.macedo@aluno.fatec.com', 'senha', NULL, 'Jéssica Macedo'),
+('barbara.ribeiro@aluno.fatec.com', 'senha', NULL, 'Bárbara Ribeiro'),
+('marli.aguiar@aluno.fatec.com', 'senha', NULL, 'Marli Aguiar'),
+('luiza.pinheiro@aluno.fatec.com', 'senha', NULL, 'Luíza Pinheiro'),
+('camila.monteiro@aluno.fatec.com', 'senha', NULL, 'Camila Monteiro'),
+('fabiana.pires@aluno.fatec.com', 'senha', NULL, 'Fabiana Pires'),
+('amanda.silveira@aluno.fatec.com', 'senha', NULL, 'Amanda Silveira'),
+('lara.goncalves@aluno.fatec.com', 'senha', NULL, 'Lara Gonçalves'),
+('silvana.cardoso@aluno.fatec.com', 'senha', NULL, 'Silvana Cardoso'),
+('julia.cardoso@aluno.fatec.com', 'senha', NULL, 'Júlia Cardoso'),
+('sueli.moreira@aluno.fatec.com', 'senha', NULL, 'Sueli Moreira'),
+('carla.pinto@aluno.fatec.com', 'senha', NULL, 'Carla Pinto'),
+('solange.correia@aluno.fatec.com', 'senha', NULL, 'Solange Correia'),
+('sara.morais@aluno.fatec.com', 'senha', NULL, 'Sara Morais'),
+('sueli.goncalves@aluno.fatec.com', 'senha', NULL, 'Sueli Gonçalves'),
+('vanessa.franca@aluno.fatec.com', 'senha', NULL, 'Vanessa França'),
+('silvana.siqueira@aluno.fatec.com', 'senha', NULL, 'Silvana Siqueira'),
+('manuela.dias@aluno.fatec.com', 'senha', NULL, 'Manuela Dias'),
+('paula.barbosa@aluno.fatec.com', 'senha', NULL, 'Paula Barbosa'),
+('michele.barbosa@aluno.fatec.com', 'senha', NULL, 'Michele Barbosa'),
+('alice.mota@aluno.fatec.com', 'senha', NULL, 'Alice Mota'),
+('yasmin.teixeira@aluno.fatec.com', 'senha', NULL, 'Yasmin Teixeira'),
+('daniele.coelho@aluno.fatec.com', 'senha', NULL, 'Daniele Coelho'),
+('larissa.garcia@aluno.fatec.com', 'senha', NULL, 'Larissa Garcia'),
+('tatiane.lopes@aluno.fatec.com', 'senha', NULL, 'Tatiane Lopes'),
+('silvana.lopes@aluno.fatec.com', 'senha', NULL, 'Silvana Lopes'),
+('paula.mendes@aluno.fatec.com', 'senha', NULL, 'Paula Mendes'),
+('paula.siqueira@aluno.fatec.com', 'senha', NULL, 'Paula Siqueira'),
+('maria.guimaraes@aluno.fatec.com', 'senha', NULL, 'Maria Guimarães'),
+('alessandra.braga@aluno.fatec.com', 'senha', NULL, 'Alessandra Braga'),
+('lara.medeiros@aluno.fatec.com', 'senha', NULL, 'Lara Medeiros'),
+('angela.marques@aluno.fatec.com', 'senha', NULL, 'Ângela Marques'),
+('monica.pires@aluno.fatec.com', 'senha', NULL, 'Mônica Pires'),
+('luciana.viana@aluno.fatec.com', 'senha', NULL, 'Luciana Viana'),
+('isabela.pinheiro@aluno.fatec.com', 'senha', NULL, 'Isabela Pinheiro'),
+('daniele.morais@aluno.fatec.com', 'senha', NULL, 'Daniele Morais'),
+('patricia.braga@aluno.fatec.com', 'senha', NULL, 'Patrícia Braga'),
+('julia.henrique@aluno.fatec.com', 'senha', NULL, 'Júlia Henrique'),
+('renata.silveira@aluno.fatec.com', 'senha', NULL, 'Renata Silveira'),
+('michele.leite@aluno.fatec.com', 'senha', NULL, 'Michele Leite'),
+('daiane.sales@aluno.fatec.com', 'senha', NULL, 'Daiane Sales'),
+('lara.martins@aluno.fatec.com', 'senha', NULL, 'Lara Martins'),
+('raquel.alves@aluno.fatec.com', 'senha', NULL, 'Raquel Alves'),
+('francisca.macedo@aluno.fatec.com', 'senha', NULL, 'Francisca Macedo'),
+('yasmin.barbosa@aluno.fatec.com', 'senha', NULL, 'Yasmin Barbosa'),
+('aline.bezerra@aluno.fatec.com', 'senha', NULL, 'Aline Bezerra'),
+('marta.ribeiro@aluno.fatec.com', 'senha', NULL, 'Marta Ribeiro'),
+('jessica.martins@aluno.fatec.com', 'senha', NULL, 'Jéssica Martins'),
+('simone.farias@aluno.fatec.com', 'senha', NULL, 'Simone Farias'),
+('eduarda.mendes@aluno.fatec.com', 'senha', NULL, 'Eduarda Mendes'),
+('paula.pereira@aluno.fatec.com', 'senha', NULL, 'Paula Pereira'),
+('thais.braga@aluno.fatec.com', 'senha', NULL, 'Thaís Braga'),
+('francisca.teixeira@aluno.fatec.com', 'senha', NULL, 'Francisca Teixeira'),
+('isadora.siqueira@aluno.fatec.com', 'senha', NULL, 'Isadora Siqueira'),
+('julia.aguiar@aluno.fatec.com', 'senha', NULL, 'Júlia Aguiar'),
+('silvana.gomes@aluno.fatec.com', 'senha', NULL, 'Silvana Gomes'),
+('thais.santana@aluno.fatec.com', 'senha', NULL, 'Thaís Santana'),
+('milena.silveira@aluno.fatec.com', 'senha', NULL, 'Milena Silveira'),
+('leticia.leite@aluno.fatec.com', 'senha', NULL, 'Letícia Leite'),
+('maria.sales@aluno.fatec.com', 'senha', NULL, 'Maria Sales'),
+('daiane.martins@aluno.fatec.com', 'senha', NULL, 'Daiane Martins'),
+('claudia.alves@aluno.fatec.com', 'senha', NULL, 'Cláudia Alves'),
+('ana.macedo@aluno.fatec.com', 'senha', NULL, 'Ana Macedo'),
+('vanessa.barbosa@aluno.fatec.com', 'senha', NULL, 'Vanessa Barbosa'),
+('marta.bezerra@aluno.fatec.com', 'senha', NULL, 'Marta Bezerra'),
+('regina.ribeiro@aluno.fatec.com', 'senha', NULL, 'Regina Ribeiro'),
+('rosangela.macedo@aluno.fatec.com', 'senha', NULL, 'Rosângela Macedo'),
+('fabiana.farias@aluno.fatec.com', 'senha', NULL, 'Fabiana Farias'),
+('renata.mendes@aluno.fatec.com', 'senha', NULL, 'Renata Mendes'),
+('michele.pereira@aluno.fatec.com', 'senha', NULL, 'Michele Pereira'),
+('janaina.braga@aluno.fatec.com', 'senha', NULL, 'Janaína Braga'),
+('alice.teixeira@aluno.fatec.com', 'senha', NULL, 'Alice Teixeira'),
+('fernanda.siqueira@aluno.fatec.com', 'senha', NULL, 'Fernanda Siqueira'),
+('edna.aguiar@aluno.fatec.com', 'senha', NULL, 'Edna Aguiar'),
+('janaina.gomes@aluno.fatec.com', 'senha', NULL, 'Janaína Gomes'),
+('thais.soares@aluno.fatec.com', 'senha', NULL, 'Thaís Soares');
 
 -- CURSO
 INSERT INTO curso (nome_curso, sigla_curso) VALUES 
@@ -265,7 +266,11 @@ INSERT INTO turma (id_turma, nome_curso, semestre, periodo, vigencia, nome_turma
 (15, 'Desenvolvimento de Software Multiplataforma', '3º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (16, 'Desenvolvimento de Software Multiplataforma', '4º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
 (17, 'Desenvolvimento de Software Multiplataforma', '5º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
-(18, 'Desenvolvimento de Software Multiplataforma', '6º', 'Matutino', '07/2026 a 12/2026', 'Regular');
+(18, 'Desenvolvimento de Software Multiplataforma', '6º', 'Matutino', '07/2026 a 12/2026', 'Regular'),
+
+-- Turma extra de teste: BD 2º semestre só para quem cursa Inglês II (4 dos 10 alunos da turma Regular 2).
+-- Serve para testar aluno em duas turmas e prova aplicada só a parte da turma do curso. Detalhes no bloco "TURMA DE INGLÊS", no fim do arquivo.
+(19, 'Banco de Dados', '2º', 'Noturno', '07/2026 a 12/2026', 'Inglês');
  
 -- PROFESSORES
 INSERT INTO professor (email, matricula) VALUES
@@ -578,7 +583,7 @@ INSERT INTO turma_disciplina (id_turma, nome_disciplina) VALUES
 (1, 'Inglês I'),
 (1, 'Engenharia de Software I'),
 (1, 'Análise e desenvolvimento de Banco de Dados I'),
-(2, 'Inglês II'),
+-- (Inglês II não é cursado pela turma Regular 2: fica na turma de Inglês, id 19, no bloco do fim do arquivo)
 (2, 'Engenharia de Software II'),
 (2, 'Análise e desenvolvimento de Banco de Dados II'),
 (3, 'Inglês III'),
@@ -634,7 +639,8 @@ INSERT INTO turma_disciplina (id_turma, nome_disciplina) VALUES
 (18, 'Engenharia de Software VI'),
 (18, 'Desenvolvimento Web VI');
 
--- ALUNOS EM TURMAS (pertence): 10 alunos por semestre por curso, cada aluno em uma única turma
+-- ALUNOS EM TURMAS (pertence): 10 alunos por semestre por curso, cada aluno em uma turma Regular
+-- (a exceção é a turma 19, de Inglês, em que 4 alunos da turma 2 entram também; ver o bloco no fim do arquivo)
 INSERT INTO pertence (RA, id_turma, nome_curso) VALUES
 -- Banco de Dados
 -- turma 1 · 1º semestre
@@ -841,59 +847,56 @@ INSERT INTO pertence (RA, id_turma, nome_curso) VALUES
 ('1484042211', 18, 'Desenvolvimento de Software Multiplataforma');
 
 -- ========== QUESTÕES ==========
-INSERT INTO questao (enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
--- Teresinha (Inglês I)
-('Qual é o plural correto de "child" em inglês?', 'Plural de substantivos', 'alt', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
-('Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'Apresentação pessoal', 'diss', 'Média', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
-('Relacione cada palavra em inglês à sua tradução em português.', 'Vocabulário básico', 'rela', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
--- Emanuel (Análise e desenvolvimento de BD III)
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'Normalização', 'alt', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
-('Explique a diferença entre chave primária e chave estrangeira.', 'Chaves e integridade', 'diss', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
-('Relacione cada comando SQL à sua categoria.', 'Linguagem SQL', 'rela', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
--- Giuliano (Eng. de Software I)
-('Qual metodologia ágil organiza o trabalho em sprints?', 'Metodologias ágeis', 'alt', 'Fácil', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
-('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'Requisitos de software', 'diss', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
-('Relacione cada papel do Scrum à sua responsabilidade.', 'Metodologias ágeis', 'rela', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I');
+INSERT INTO questao (questao_id, enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
+(1, 'Qual é o plural correto de "child" em inglês?', 'Plural de substantivos', 'alt', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
+(2, 'Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'Apresentação pessoal', 'diss', 'Média', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
+(3, 'Relacione cada palavra em inglês à sua tradução em português.', 'Vocabulário básico', 'rela', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês I'),
+(4, 'Qual forma normal exige que não haja dependências parciais da chave primária?', 'Normalização', 'alt', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+(5, 'Explique a diferença entre chave primária e chave estrangeira.', 'Chaves e integridade', 'diss', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+(6, 'Relacione cada comando SQL à sua categoria.', 'Linguagem SQL', 'rela', 'Média', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III'),
+(7, 'Qual metodologia ágil organiza o trabalho em sprints?', 'Metodologias ágeis', 'alt', 'Fácil', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
+(8, 'Cite duas diferenças entre requisitos funcionais e não funcionais.', 'Requisitos de software', 'diss', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I'),
+(9, 'Relacione cada papel do Scrum à sua responsabilidade.', 'Metodologias ágeis', 'rela', 'Média', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I');
 
 -- ========== RESPOSTAS ==========
-INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
--- Teresinha: alternativa
-('Qual é o plural correto de "child" em inglês?', 'alt', 'children', 1, NULL),
-('Qual é o plural correto de "child" em inglês?', 'alt', 'childs', 0, NULL),
-('Qual é o plural correto de "child" em inglês?', 'alt', 'childrens', 0, NULL),
-('Qual é o plural correto de "child" em inglês?', 'alt', 'childes', 0, NULL),
--- Teresinha: dissertativa
-('Escreva em inglês uma frase se apresentando com nome, idade e profissão.', 'diss', 'My name is Ana, I am 25 years old and I am a student.', NULL, NULL),
--- Teresinha: relacional (texto = item | conceito = par correto)
-('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Dog', NULL, 'Cachorro'),
-('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'House', NULL, 'Casa'),
-('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Book', NULL, 'Livro'),
-('Relacione cada palavra em inglês à sua tradução em português.', 'rela', 'Water', NULL, 'Água'),
+INSERT INTO resposta (questao_id, texto, correta, conceito) VALUES
+-- Teresinha: alternativa (questão 1)
+(1, 'children', 1, NULL),
+(1, 'childs', 0, NULL),
+(1, 'childrens', 0, NULL),
+(1, 'childes', 0, NULL),
+-- Teresinha: dissertativa (questão 2)
+(2, 'My name is Ana, I am 25 years old and I am a student.', NULL, NULL),
+-- Teresinha: relacional (questão 3) (texto = item | conceito = par correto)
+(3, 'Dog', NULL, 'Cachorro'),
+(3, 'House', NULL, 'Casa'),
+(3, 'Book', NULL, 'Livro'),
+(3, 'Water', NULL, 'Água'),
 
--- Emanuel: alternativa
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Segunda Forma Normal (2FN)', 1, NULL),
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Primeira Forma Normal (1FN)', 0, NULL),
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Terceira Forma Normal (3FN)', 0, NULL),
-('Qual forma normal exige que não haja dependências parciais da chave primária?', 'alt', 'Forma Normal de Boyce-Codd (BCNF)', 0, NULL),
--- Emanuel: dissertativa
-('Explique a diferença entre chave primária e chave estrangeira.', 'diss', 'A PK identifica cada registro; a FK referencia a PK de outra tabela e garante integridade.', NULL, NULL),
--- Emanuel: relacional
-('Relacione cada comando SQL à sua categoria.', 'rela', 'CREATE TABLE', NULL, 'DDL'),
-('Relacione cada comando SQL à sua categoria.', 'rela', 'INSERT', NULL, 'DML'),
-('Relacione cada comando SQL à sua categoria.', 'rela', 'GRANT', NULL, 'DCL'),
-('Relacione cada comando SQL à sua categoria.', 'rela', 'COMMIT', NULL, 'TCL'),
+-- Emanuel: alternativa (questão 4)
+(4, 'Segunda Forma Normal (2FN)', 1, NULL),
+(4, 'Primeira Forma Normal (1FN)', 0, NULL),
+(4, 'Terceira Forma Normal (3FN)', 0, NULL),
+(4, 'Forma Normal de Boyce-Codd (BCNF)', 0, NULL),
+-- Emanuel: dissertativa (questão 5)
+(5, 'A PK identifica cada registro; a FK referencia a PK de outra tabela e garante integridade.', NULL, NULL),
+-- Emanuel: relacional (questão 6)
+(6, 'CREATE TABLE', NULL, 'DDL'),
+(6, 'INSERT', NULL, 'DML'),
+(6, 'GRANT', NULL, 'DCL'),
+(6, 'COMMIT', NULL, 'TCL'),
 
--- Giuliano: alternativa
-('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Scrum', 1, NULL),
-('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Cascata', 0, NULL),
-('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Modelo em V', 0, NULL),
-('Qual metodologia ágil organiza o trabalho em sprints?', 'alt', 'Espiral', 0, NULL),
--- Giuliano: dissertativa
-('Cite duas diferenças entre requisitos funcionais e não funcionais.', 'diss', 'Funcionais descrevem o que o sistema faz; não funcionais definem qualidade, como desempenho.', NULL, NULL),
--- Giuliano: relacional
-('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Product Owner', NULL, 'Prioriza o backlog do produto'),
-('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Scrum Master', NULL, 'Facilita o processo e remove impedimentos'),
-('Relacione cada papel do Scrum à sua responsabilidade.', 'rela', 'Developers', NULL, 'Constroem o incremento do produto');
+-- Giuliano: alternativa (questão 7)
+(7, 'Scrum', 1, NULL),
+(7, 'Cascata', 0, NULL),
+(7, 'Modelo em V', 0, NULL),
+(7, 'Espiral', 0, NULL),
+-- Giuliano: dissertativa (questão 8)
+(8, 'Funcionais descrevem o que o sistema faz; não funcionais definem qualidade, como desempenho.', NULL, NULL),
+-- Giuliano: relacional (questão 9)
+(9, 'Product Owner', NULL, 'Prioriza o backlog do produto'),
+(9, 'Scrum Master', NULL, 'Facilita o processo e remove impedimentos'),
+(9, 'Developers', NULL, 'Constroem o incremento do produto');
  
 -- ========== PROVAS ==========
 INSERT INTO prova (nome_prova, dificuldade, valor, email_professor, nome_disciplina) VALUES
@@ -996,26 +999,26 @@ JOIN questao q ON q.enunciado = v.enunciado AND q.tipo = v.tipo;
 -- ========= PROVA aplicada TURMA =============
 -- Provas 1 e 2 e recuperação, cada uma na turma do semestre da disciplina:
 -- Inglês I e Eng. de Software I = BD 1º sem. (turma 1) | Análise e Desenv. de BD III = BD 3º sem. (turma 3)
-INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario)
-SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario
+INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario, horario_fim)
+SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario, v.horario_fim
 FROM (
-    SELECT 1 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-09-18' AS data, '19:30:00' AS horario
+    SELECT 1 AS id_turma, 'Prova 1' AS nome_prova, 'teresinha.fatima@prof.fatec.com' AS email_professor, 'Inglês I' AS nome_disciplina, '2026-09-18' AS data, '19:35:00' AS horario, '21:15:00' AS horario_fim
     UNION ALL
-    SELECT 1, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-08-20', '19:30:00'
+    SELECT 1, 'Prova 2', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-10-20', '19:35:00', '21:15:00'
     UNION ALL
-    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '19:30:00'
+    SELECT 3, 'Prova 1', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-10-14', '21:25:00', '23:05:00'
     UNION ALL
-    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-11-18', '19:30:00'
+    SELECT 3, 'Prova 2', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-11-18', '21:25:00', '23:05:00'
     UNION ALL
-    SELECT 1, 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-10-15', '19:30:00'
+    SELECT 1, 'Prova 1', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-10-15', '19:35:00', '21:15:00'
     UNION ALL
-    SELECT 1, 'Prova 2', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-11-19', '19:30:00'
+    SELECT 1, 'Prova 2', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-11-19', '19:35:00', '21:10:00'
     UNION ALL
-    SELECT 1, 'Recuperação', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-12-02', '19:30:00'
+    SELECT 1, 'Recuperação', 'teresinha.fatima@prof.fatec.com', 'Inglês I', '2026-12-02', '19:35:00', '21:15:00'
     UNION ALL
-    SELECT 1, 'Recuperação', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-12-03', '19:30:00'
+    SELECT 1, 'Recuperação', 'giuliano.bertoti@prof.fatec.com', 'Engenharia de Software I', '2026-12-03', '19:30:00', '21:10:00'
     UNION ALL
-    SELECT 3, 'Recuperação', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-12-04', '19:30:00'
+    SELECT 3, 'Recuperação', 'emanuel.mineda@prof.fatec.com', 'Análise e desenvolvimento de Banco de Dados III', '2026-12-04', '21:30:00', '23:05:00'
 ) AS v
 JOIN prova p ON p.nome_prova = v.nome_prova AND p.email_professor = v.email_professor AND p.nome_disciplina = v.nome_disciplina;
 
@@ -1060,38 +1063,38 @@ WHERE p.nome_prova = 'Recuperação' AND p.email_professor = 'emanuel.mineda@pro
 -- ========== PROVAS DA ADRIANA (Desenvolvimento Web I) E DO FABIANO (Sistemas Operacionais I) ==========
 
 -- QUESTÕES
-INSERT INTO questao (enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
+INSERT INTO questao (questao_id, enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
 -- Fabiano (Sistemas Operacionais I)
-('Qual é a principal função do kernel em um sistema operacional?', 'Conceitos de SO', 'alt', 'Fácil', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
-('Explique a diferença entre processo e thread.', 'Processos e threads', 'diss', 'Média', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
-('Relacione cada comando do Linux à sua função.', 'Linha de comando Linux', 'rela', 'Média', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
+(10, 'Qual é a principal função do kernel em um sistema operacional?', 'Conceitos de SO', 'alt', 'Fácil', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
+(11, 'Explique a diferença entre processo e thread.', 'Processos e threads', 'diss', 'Média', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
+(12, 'Relacione cada comando do Linux à sua função.', 'Linha de comando Linux', 'rela', 'Média', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I'),
 -- Adriana (Desenvolvimento Web I)
-('Qual tag HTML define o título principal de uma página?', 'Estrutura HTML', 'alt', 'Fácil', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I'),
-('Explique a diferença entre HTML e CSS.', 'Fundamentos da web', 'diss', 'Média', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I'),
-('Relacione cada tecnologia web à sua função.', 'Fundamentos da web', 'rela', 'Média', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I');
+(13, 'Qual tag HTML define o título principal de uma página?', 'Estrutura HTML', 'alt', 'Fácil', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I'),
+(14, 'Explique a diferença entre HTML e CSS.', 'Fundamentos da web', 'diss', 'Média', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I'),
+(15, 'Relacione cada tecnologia web à sua função.', 'Fundamentos da web', 'rela', 'Média', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I');
 
 -- RESPOSTAS (rela: texto = item | conceito = par correto)
-INSERT INTO resposta (enunciado, tipo, texto, correta, conceito) VALUES
--- Fabiano
-('Qual é a principal função do kernel em um sistema operacional?', 'alt', 'Gerenciar os recursos de hardware e os processos', 1, NULL),
-('Qual é a principal função do kernel em um sistema operacional?', 'alt', 'Editar documentos de texto', 0, NULL),
-('Qual é a principal função do kernel em um sistema operacional?', 'alt', 'Navegar na internet', 0, NULL),
-('Qual é a principal função do kernel em um sistema operacional?', 'alt', 'Compilar programas em linguagem C', 0, NULL),
-('Explique a diferença entre processo e thread.', 'diss', 'Processo tem memória própria; as threads de um processo compartilham memória e recursos.', NULL, NULL),
-('Relacione cada comando do Linux à sua função.', 'rela', 'ls', NULL, 'Lista arquivos e diretórios'),
-('Relacione cada comando do Linux à sua função.', 'rela', 'cd', NULL, 'Muda de diretório'),
-('Relacione cada comando do Linux à sua função.', 'rela', 'mkdir', NULL, 'Cria um diretório'),
-('Relacione cada comando do Linux à sua função.', 'rela', 'rm', NULL, 'Remove arquivos'),
+INSERT INTO resposta (questao_id, texto, correta, conceito) VALUES
+-- Fabiano: 
+(10, 'Gerenciar os recursos de hardware e os processos', 1, NULL),
+(10, 'Editar documentos de texto', 0, NULL),
+(10, 'Navegar na internet', 0, NULL),
+(10, 'Compilar programas em linguagem C', 0, NULL),
+(11, 'Processo tem memória própria; as threads de um processo compartilham memória e recursos.', NULL, NULL),
+(12, 'ls', NULL, 'Lista arquivos e diretórios'),
+(12, 'cd', NULL, 'Muda de diretório'),
+(12, 'mkdir', NULL, 'Cria um diretório'),
+(12, 'rm', NULL, 'Remove arquivos'),
 -- Adriana
-('Qual tag HTML define o título principal de uma página?', 'alt', '<h1>', 1, NULL),
-('Qual tag HTML define o título principal de uma página?', 'alt', '<p>', 0, NULL),
-('Qual tag HTML define o título principal de uma página?', 'alt', '<div>', 0, NULL),
-('Qual tag HTML define o título principal de uma página?', 'alt', '<span>', 0, NULL),
-('Explique a diferença entre HTML e CSS.', 'diss', 'HTML define a estrutura e o conteúdo da página; CSS define a aparência e o layout.', NULL, NULL),
-('Relacione cada tecnologia web à sua função.', 'rela', 'HTML', NULL, 'Estrutura da página'),
-('Relacione cada tecnologia web à sua função.', 'rela', 'CSS', NULL, 'Estilo e layout'),
-('Relacione cada tecnologia web à sua função.', 'rela', 'JavaScript', NULL, 'Comportamento e interatividade'),
-('Relacione cada tecnologia web à sua função.', 'rela', 'HTTP', NULL, 'Protocolo de comunicação entre cliente e servidor');
+(13, '<h1>', 1, NULL),
+(13, '<p>', 0, NULL),
+(13, '<div>', 0, NULL),
+(13, '<span>', 0, NULL),
+(14, 'HTML define a estrutura e o conteúdo da página; CSS define a aparência e o layout.', NULL, NULL),
+(15, 'HTML', NULL, 'Estrutura da página'),
+(15, 'CSS', NULL, 'Estilo e layout'),
+(15, 'JavaScript', NULL, 'Comportamento e interatividade'),
+(15, 'HTTP', NULL, 'Protocolo de comunicação entre cliente e servidor');
 
 -- PROVAS
 INSERT INTO prova (nome_prova, dificuldade, valor, email_professor, nome_disciplina) VALUES
@@ -1153,20 +1156,20 @@ JOIN questao q ON q.enunciado = v.enunciado AND q.tipo = v.tipo;
 
 -- PROVA APLICADA À TURMA (turmas matutinas: 08:00)
 -- Fabiano: Sistemas Operacionais I = ADS 1º sem. (turma 7) | Adriana: Desenvolvimento Web I = DSM 1º sem. (turma 13)
-INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario)
-SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario
+INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario, horario_fim)
+SELECT p.prova_id, v.id_turma, p.email_professor, p.nome_disciplina, v.data, v.horario, v.horario_fim
 FROM (
-    SELECT 7 AS id_turma, 'Prova 1' AS nome_prova, 'fabiano.sabha@prof.fatec.com' AS email_professor, 'Sistemas Operacionais I' AS nome_disciplina, '2026-10-16' AS data, '08:00:00' AS horario
+    SELECT 7 AS id_turma, 'Prova 1' AS nome_prova, 'fabiano.sabha@prof.fatec.com' AS email_professor, 'Sistemas Operacionais I' AS nome_disciplina, '2026-10-16' AS data, '08:00:00' AS horario, '09:50:00' AS horario_fim
     UNION ALL
-    SELECT 7, 'Prova 2', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I', '2026-11-20', '08:00:00'
+    SELECT 7, 'Prova 2', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I', '2026-11-20', '08:00:00', '09:50:00'
     UNION ALL
-    SELECT 7, 'Recuperação', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I', '2026-12-07', '08:00:00'
+    SELECT 7, 'Recuperação', 'fabiano.sabha@prof.fatec.com', 'Sistemas Operacionais I', '2026-12-07', '08:00:00', '09:50:00'
     UNION ALL
-    SELECT 13, 'Prova 1', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-10-19', '08:00:00'
+    SELECT 13, 'Prova 1', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-10-19', '08:00:00', '09:50:00'
     UNION ALL
-    SELECT 13, 'Prova 2', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-11-23', '08:00:00'
+    SELECT 13, 'Prova 2', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-11-23', '08:00:00', '09:50:00'
     UNION ALL
-    SELECT 13, 'Recuperação', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-12-08', '08:00:00'
+    SELECT 13, 'Recuperação', 'adriana.silva@prof.fatec.com', 'Desenvolvimento Web I', '2026-12-08', '08:00:00', '09:50:00'
 ) AS v
 JOIN prova p ON p.nome_prova = v.nome_prova AND p.email_professor = v.email_professor AND p.nome_disciplina = v.nome_disciplina;
 
@@ -1198,6 +1201,535 @@ JOIN aluno a ON a.email IN ('yasmin.alves@aluno.fatec.com', 'joaquim.brito@aluno
 JOIN pertence pe ON pe.RA = a.RA AND pe.id_turma = pt.id_turma
 WHERE p.nome_prova = 'Recuperação' AND p.email_professor = 'adriana.silva@prof.fatec.com' AND p.nome_disciplina = 'Desenvolvimento Web I';
 
+-- RESPOSTA ALUNOS (resposta_aluno)
+
+INSERT INTO resposta_aluno
+    (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta)
+
+-- QUESTÕES DE MÚLTIPLA ESCOLHA (ALT)
+
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, r.resposta_id, NULL, NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Qual é a principal função do kernel em um sistema operacional?'
+   AND q.tipo = 'alt'
+JOIN resposta r
+    ON r.questao_id = q.questao_id
+   AND r.texto = 'Editar documentos de texto'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, r.resposta_id, NULL, NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Qual tag HTML define o título principal de uma página?'
+   AND q.tipo = 'alt'
+JOIN resposta r
+    ON r.questao_id = q.questao_id
+   AND r.texto = '<h1>'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13
+
+UNION ALL
+
+-- QUESTÕES DISSERTATIVAS (DISS)
+
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    'Um processo possui seu próprio espaço de memória, enquanto as threads compartilham a memória e os recursos do processo.',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Explique a diferença entre processo e thread.'
+   AND q.tipo = 'diss'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    'HTML é utilizado para estruturar o conteúdo da página, enquanto CSS define sua aparência, cores, fontes e organização visual.',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Explique a diferença entre HTML e CSS.'
+   AND q.tipo = 'diss'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13
+
+UNION ALL
+
+-- QUESTÕES RELACIONAMENTO
+ 
+-- Fabiano 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    '[{"item":"ls","ligou":"Lista arquivos e diretórios"},{"item":"cd","ligou":"Muda de diretório"},{"item":"mkdir","ligou":"Cria um diretório"},{"item":"rm","ligou":"Remove arquivos"}]',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Relacione cada comando do Linux à sua função.'
+   AND q.tipo = 'rela'
+JOIN aluno a
+    ON a.email = 'daniele.teixeira@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'fabiano.sabha@prof.fatec.com'
+  AND p.nome_disciplina = 'Sistemas Operacionais I'
+  AND pt.id_turma = 7
+
+UNION ALL
+
+-- Adriana 
+SELECT
+    pt.id_aplicacao, pt.prova_id, a.RA,
+    q.questao_id, NULL,
+    '[{"item":"HTML","ligou":"Estrutura da página"},{"item":"CSS","ligou":"Estilo e layout"},{"item":"JavaScript","ligou":"Comportamento e interatividade"},{"item":"HTTP","ligou":"Protocolo de comunicação entre cliente e servidor"}]',
+    NULL
+FROM prova_turma pt
+JOIN prova p
+    ON p.prova_id = pt.prova_id
+JOIN questao q
+    ON q.enunciado = 'Relacione cada tecnologia web à sua função.'
+   AND q.tipo = 'rela'
+JOIN aluno a
+    ON a.email = 'yasmin.alves@aluno.fatec.com'
+JOIN prova_aluno pa
+    ON pa.id_aplicacao = pt.id_aplicacao
+   AND pa.RA = a.RA
+WHERE p.nome_prova = 'Recuperação'
+  AND p.email_professor = 'adriana.silva@prof.fatec.com'
+  AND p.nome_disciplina = 'Desenvolvimento Web I'
+  AND pt.id_turma = 13;
+
+
+-- ========== CENÁRIO: TURMA DE INGLÊS COM SÓ ALGUNS ALUNOS ==========
+-- BD 2º semestre (noturno): a turma Regular (id 2) NÃO cursa Inglês II.
+-- Só 4 dos 10 alunos fazem Inglês II, numa turma própria (nome_turma = 'Inglês', id 19, criada na lista de TURMAS).
+-- Eles continuam na turma Regular para as demais matérias (um aluno em duas turmas).
+
+INSERT INTO turma_disciplina (id_turma, nome_disciplina) VALUES
+(19, 'Inglês II');
+
+-- ALUNOS DA TURMA DE INGLÊS: marli.aguiar@aluno.fatec.com, fabiana.pires@aluno.fatec.com, ronaldo.cunha@aluno.fatec.com, willian.fonseca@aluno.fatec.com
+INSERT INTO pertence (RA, id_turma, nome_curso)
+SELECT a.RA, 19, a.nome_curso
+FROM aluno a
+WHERE a.email IN ('marli.aguiar@aluno.fatec.com', 'fabiana.pires@aluno.fatec.com', 'ronaldo.cunha@aluno.fatec.com', 'willian.fonseca@aluno.fatec.com');
+
+-- QUESTÕES DE INGLÊS II (Teresinha)
+INSERT INTO questao (questao_id, enunciado, tema, tipo, dificuldade, email_professor, nome_disciplina) VALUES
+(16, 'Qual é o passado simples do verbo "go" em inglês?', 'Passado simples', 'alt', 'Fácil', 'teresinha.fatima@prof.fatec.com', 'Inglês II'),
+(17, 'Escreva em inglês duas frases sobre o que você fez ontem.', 'Rotina e passado', 'diss', 'Média', 'teresinha.fatima@prof.fatec.com', 'Inglês II');
+
+INSERT INTO resposta (questao_id, texto, correta, conceito) VALUES
+(16, 'went', 1, NULL),
+(16, 'goed', 0, NULL),
+(16, 'gone', 0, NULL),
+(16, 'going', 0, NULL),
+(17, 'Yesterday I woke up early and went to college. In the evening I studied English.', NULL, NULL);
+
+-- Prova 1 de Inglês II (já cadastrada, sem questões): 4,00 + 6,00 = 10,00
+INSERT INTO prova_questao (prova_id, questao_id, email_professor, nome_disciplina, peso)
+SELECT p.prova_id, q.questao_id, p.email_professor, p.nome_disciplina, v.peso
+FROM (
+    SELECT 16 AS questao_id, 4.00 AS peso
+    UNION ALL
+    SELECT 17, 6.00
+) AS v
+JOIN prova p ON p.nome_prova = 'Prova 1' AND p.email_professor = 'teresinha.fatima@prof.fatec.com' AND p.nome_disciplina = 'Inglês II'
+JOIN questao q ON q.questao_id = v.questao_id;
+
+-- APLICAÇÃO NA TURMA DE INGLÊS (24/11, 19:35 às 21:15)
+INSERT INTO prova_turma (prova_id, id_turma, email_professor, nome_disciplina, data, horario, horario_fim)
+SELECT p.prova_id, 19, p.email_professor, p.nome_disciplina, '2026-11-24', '19:35:00', '21:15:00'
+FROM prova p
+WHERE p.nome_prova = 'Prova 1' AND p.email_professor = 'teresinha.fatima@prof.fatec.com' AND p.nome_disciplina = 'Inglês II';
+
+-- CONVOCADOS: todos os alunos da turma de Inglês (os outros 6 da turma Regular não fazem a prova)
+INSERT INTO prova_aluno (id_aplicacao, id_turma, RA)
+SELECT pt.id_aplicacao, pt.id_turma, pe.RA
+FROM prova_turma pt
+JOIN pertence pe ON pe.id_turma = pt.id_turma
+WHERE pt.id_turma = 19;
+
+-- =====================================================================
+-- DEPENDÊNCIA: 2 alunos de ADS (3º semestre, turma 9) cursam Engenharia de Software II
+-- junto com a turma 8 (2º semestre)
+-- =====================================================================
+INSERT INTO pertence (RA, id_turma, nome_curso)
+SELECT pe.RA, 8, pe.nome_curso FROM pertence pe JOIN aluno a ON a.RA = pe.RA
+WHERE pe.id_turma = 9 AND a.email IN ('edson.reis@aluno.fatec.com', 'diogo.oliveira@aluno.fatec.com');
+
+-- =====================================================================
+-- NOVO: EXEMPLO DE COMPOSIÇÃO DA MÉDIA (colocar antes da CONFERÊNCIA)
+-- Inglês I / turma 1: Prova 1 = 60%, Prova 2 = 40% (soma 100)
+-- BD III / turma 3: Prova 1 = 50%, Prova 2 = 50% (Prova 2 ainda sem correção)
+-- A Recuperação é uma prova comum: só entra na média se o professor cadastrá-la como item.
+-- =====================================================================
+-- localiza as aplicações pelo nome (não depende do id gerado pelo AUTO_INCREMENT)
+SET @app_ing_p1 = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+                  WHERE pt.id_turma = 1 AND p.nome_disciplina = 'Inglês I' AND p.nome_prova = 'Prova 1');
+SET @app_ing_p2 = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+                  WHERE pt.id_turma = 1 AND p.nome_disciplina = 'Inglês I' AND p.nome_prova = 'Prova 2');
+SET @app_ing_rec = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+                   WHERE pt.id_turma = 1 AND p.nome_disciplina = 'Inglês I' AND p.nome_prova = 'Recuperação');
+SET @app_bd_p1 = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+                 WHERE pt.id_turma = 3 AND p.nome_disciplina = 'Análise e desenvolvimento de Banco de Dados III' AND p.nome_prova = 'Prova 1');
+SET @app_bd_p2 = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+                 WHERE pt.id_turma = 3 AND p.nome_disciplina = 'Análise e desenvolvimento de Banco de Dados III' AND p.nome_prova = 'Prova 2');
+
+INSERT INTO item_avaliativo (id_turma, nome_disciplina, nome, peso_percentual, id_aplicacao) VALUES
+(1, 'Inglês I', 'Prova 1', 60, @app_ing_p1),
+(1, 'Inglês I', 'Prova 2', 40, @app_ing_p2),
+(3, 'Análise e desenvolvimento de Banco de Dados III', 'Prova 1', 50, @app_bd_p1),
+(3, 'Análise e desenvolvimento de Banco de Dados III', 'Prova 2', 50, @app_bd_p2);
+
+-- notas das provas (prova_aluno) + fechamento da correção
+
+UPDATE prova_aluno SET nota = 8, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '3429843806';
+UPDATE prova_aluno SET nota = 7, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '3429843806';
+UPDATE prova_aluno SET nota = 10, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '8089811057';
+UPDATE prova_aluno SET nota = 10, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '8089811057';
+UPDATE prova_aluno SET nota = 9.5, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '3534589347';
+UPDATE prova_aluno SET nota = 9.5, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '3534589347';
+UPDATE prova_aluno SET nota = 6, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '7070353682';
+UPDATE prova_aluno SET nota = 5, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '7070353682';
+UPDATE prova_aluno SET nota = 4, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '3955057679';
+UPDATE prova_aluno SET nota = 3, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '3955057679';
+UPDATE prova_aluno SET nota = 7, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '3737564015';
+UPDATE prova_aluno SET nota = 6.5 WHERE id_aplicacao = @app_ing_p2 AND RA = '3737564015';  -- nota provisória, correção não fechada
+UPDATE prova_aluno SET nota = 9, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '5969515932';
+UPDATE prova_aluno SET nota = 9, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '5969515932';
+UPDATE prova_aluno SET nota = 2, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '3480944395';
+UPDATE prova_aluno SET nota = 6, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '3480944395';
+UPDATE prova_aluno SET nota = 10, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '6569811650';
+UPDATE prova_aluno SET nota = 8, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '6569811650';
+UPDATE prova_aluno SET nota = 5, corrigida_em = '2026-10-25 10:00:00' WHERE id_aplicacao = @app_ing_p1 AND RA = '9930486087';
+UPDATE prova_aluno SET nota = 5, corrigida_em = '2026-11-25 10:00:00' WHERE id_aplicacao = @app_ing_p2 AND RA = '9930486087';
+UPDATE prova_aluno SET nota = 8, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '1331331252';
+UPDATE prova_aluno SET nota = 6, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '2816870293';
+UPDATE prova_aluno SET nota = 10, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '3758626180';
+UPDATE prova_aluno SET nota = 5, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '8148949375';
+UPDATE prova_aluno SET nota = 7, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '1982038995';
+UPDATE prova_aluno SET nota = 9, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '9934821335';
+UPDATE prova_aluno SET nota = 4, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '8458685742';
+UPDATE prova_aluno SET nota = 3, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '3125811937';
+UPDATE prova_aluno SET nota = 2, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '4011695303';
+UPDATE prova_aluno SET nota = 10, corrigida_em = '2026-10-30 10:00:00' WHERE id_aplicacao = @app_bd_p1 AND RA = '3579364582';
+
+-- =====================================================================
+-- NOVO: NOTAS DA RECUPERAÇÃO DE INGLÊS I (prova comum, só 3 alunos convocados)
+-- Daiane e Alexandre: correção fechada | Cláudia: nota provisória (correção não fechada)
+-- =====================================================================
+UPDATE prova_aluno SET nota = 8, corrigida_em = '2026-12-03 10:00:00' WHERE id_aplicacao = @app_ing_rec AND RA = '3480944395';
+UPDATE prova_aluno SET nota = 7, corrigida_em = '2026-12-03 10:00:00' WHERE id_aplicacao = @app_ing_rec AND RA = '3955057679';
+UPDATE prova_aluno SET nota = 5                                       WHERE id_aplicacao = @app_ing_rec AND RA = '8089811057';  -- provisória
+
+-- =====================================================================
+-- TESTE DO APP: prova respondida e corrigida
+-- Turma 7 (ADS, 1º semestre, Regular, 10 alunos) - Sistemas Operacionais I - Prova 1
+-- Questão alternativa (vale 4) e questão dissertativa (vale 6). Todos responderam tudo.
+-- Os 10 alunos, em ordem de RA, recebem nota final 1, 2, ..., 10:
+--   notas 1 a 3  -> erraram a alternativa; dissertativa vale 1, 2 e 3
+--   notas 4 a 10 -> acertaram a alternativa (4); dissertativa vale 0 a 6
+-- correta = TRUE só quando a questão recebeu a nota cheia.
+-- A aplicação e as questões são localizadas pelo nome (sem id fixo).
+-- =====================================================================
+SET @app_so = (SELECT pt.id_aplicacao FROM prova_turma pt JOIN prova p ON p.prova_id = pt.prova_id
+               WHERE pt.id_turma = 7 AND p.nome_disciplina = 'Sistemas Operacionais I' AND p.nome_prova = 'Prova 1');
+
+-- questão alternativa
+INSERT INTO resposta_aluno (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta, nota)
+SELECT pt.id_aplicacao, pt.prova_id, a.RA, qu.questao_id, r.resposta_id, NULL,
+       CASE WHEN a.n >= 4 THEN TRUE ELSE FALSE END,
+       CASE WHEN a.n >= 4 THEN 4 ELSE 0 END
+FROM (SELECT pa.id_aplicacao, pa.RA, ROW_NUMBER() OVER (ORDER BY pa.RA) AS n
+      FROM prova_aluno pa WHERE pa.id_aplicacao = @app_so) a
+JOIN prova_turma pt   ON pt.id_aplicacao = a.id_aplicacao
+JOIN prova_questao pq ON pq.prova_id = pt.prova_id
+JOIN questao qu       ON qu.questao_id = pq.questao_id AND qu.tipo = 'alt'
+JOIN resposta r       ON r.questao_id = qu.questao_id
+                     AND r.texto = CASE a.n WHEN 1 THEN 'Editar documentos de texto'
+                                            WHEN 2 THEN 'Navegar na internet'
+                                            WHEN 3 THEN 'Compilar programas em linguagem C'
+                                            ELSE 'Gerenciar os recursos de hardware e os processos' END;
+
+-- questão dissertativa
+INSERT INTO resposta_aluno (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta, nota)
+SELECT pt.id_aplicacao, pt.prova_id, a.RA, qu.questao_id, NULL, t.texto,
+       CASE WHEN t.d = 6 THEN TRUE ELSE FALSE END, t.d
+FROM (SELECT pa.id_aplicacao, pa.RA, ROW_NUMBER() OVER (ORDER BY pa.RA) AS n
+      FROM prova_aluno pa WHERE pa.id_aplicacao = @app_so) a
+JOIN prova_turma pt   ON pt.id_aplicacao = a.id_aplicacao
+JOIN prova_questao pq ON pq.prova_id = pt.prova_id
+JOIN questao qu       ON qu.questao_id = pq.questao_id AND qu.tipo = 'diss'
+JOIN (
+    SELECT 0 AS d, 'Processo e thread são a mesma coisa.' AS texto
+    UNION ALL
+    SELECT 1, 'Thread é uma parte do processo.'
+    UNION ALL
+    SELECT 2, 'O processo é um programa em execução e a thread executa dentro dele.'
+    UNION ALL
+    SELECT 3, 'O processo tem memória própria e a thread fica dentro do processo.'
+    UNION ALL
+    SELECT 4, 'Cada processo tem seu espaço de memória; as threads de um processo compartilham esse espaço.'
+    UNION ALL
+    SELECT 5, 'Processo tem memória própria; as threads de um mesmo processo compartilham memória e recursos, e por isso trocam dados com mais facilidade.'
+    UNION ALL
+    SELECT 6, 'Um processo possui seu próprio espaço de memória, enquanto as threads compartilham a memória e os recursos do processo.'
+) t ON t.d = CASE WHEN a.n < 4 THEN a.n ELSE a.n - 4 END;
+
+-- fecha a correção: nota da prova = soma das notas das questões
+UPDATE prova_aluno
+SET nota = (SELECT SUM(r.nota) FROM resposta_aluno r
+            WHERE r.id_aplicacao = prova_aluno.id_aplicacao AND r.RA = prova_aluno.RA),
+    corrigida_em = '2026-10-20 10:00:00'
+WHERE id_aplicacao = @app_so;
+
+
+-- =====================================================================
+-- AJUSTE: respostas (resposta_aluno) dos alunos que só tinham nota forçada em prova_aluno
+-- (Inglês I: Prova 1, Prova 2 e Recuperação | BD III: Prova 1)
+-- Cria resposta_aluno só de quem tem nota e ainda não tem nenhuma resposta.
+-- A soma das notas das questões = nota da prova (não altera prova_aluno).
+--   alternativa e relacionamento: tudo ou nada | dissertativa: fica com o que sobrar
+-- =====================================================================
+INSERT INTO resposta_aluno (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta, nota)
+WITH base AS (
+    SELECT pa.id_aplicacao, pt.prova_id, pa.RA, pa.nota AS nota_prova,
+           pq.questao_id, pq.peso, qu.tipo
+    FROM prova_aluno pa
+    JOIN prova_turma pt   ON pt.id_aplicacao = pa.id_aplicacao
+    JOIN prova_questao pq ON pq.prova_id = pt.prova_id
+    JOIN questao qu       ON qu.questao_id = pq.questao_id
+    WHERE pa.nota IS NOT NULL
+      AND NOT EXISTS (SELECT 1 FROM resposta_aluno x
+                      WHERE x.id_aplicacao = pa.id_aplicacao AND x.RA = pa.RA)
+),
+passo1 AS (   -- alternativa: acerta se a nota cobre o peso
+    SELECT base.*,
+           COALESCE(MAX(CASE WHEN tipo = 'alt' AND nota_prova >= peso THEN peso END)
+                    OVER (PARTITION BY id_aplicacao, RA), 0) AS alt_ganho
+    FROM base
+),
+passo2 AS (   -- relacionamento: acerta tudo se o que sobrou cobre o peso
+    SELECT passo1.*,
+           COALESCE(MAX(CASE WHEN tipo = 'rela' AND nota_prova - alt_ganho >= peso THEN peso END)
+                    OVER (PARTITION BY id_aplicacao, RA), 0) AS rela_ganho
+    FROM passo1
+),
+passo3 AS (   -- nota de cada questão; a dissertativa fica com o resto
+    SELECT passo2.*,
+           CASE tipo WHEN 'alt'  THEN alt_ganho
+                     WHEN 'rela' THEN rela_ganho
+                     ELSE nota_prova - alt_ganho - rela_ganho END AS ganho
+    FROM passo2
+),
+passo4 AS (   -- primeiro nome e idade do aluno (na data da prova) + enunciado, para personalizar a resposta
+    SELECT passo3.*,
+           SUBSTRING_INDEX(u.nome, ' ', 1) AS pnome,
+           TIMESTAMPDIFF(YEAR, al.data_nascimento, pt.data) AS idade,
+           qd.enunciado AS enunciado
+    FROM passo3
+    JOIN aluno al ON al.RA = passo3.RA
+    JOIN usuario u ON u.email = al.email
+    JOIN prova_turma pt ON pt.id_aplicacao = passo3.id_aplicacao
+    JOIN questao qd ON qd.questao_id = passo3.questao_id
+)
+SELECT c.id_aplicacao, c.prova_id, c.RA, c.questao_id,
+
+       -- alternativa marcada (certa se acertou, senão a primeira errada)
+       CASE WHEN c.tipo = 'alt' THEN
+            (SELECT r.resposta_id FROM resposta r
+             WHERE r.questao_id = c.questao_id
+               AND r.correta = IF(c.ganho = c.peso, 1, 0)
+             ORDER BY r.resposta_id LIMIT 1)
+       END,
+
+       -- texto: dissertativa e relacionamento
+       CASE
+         WHEN c.tipo = 'diss' AND c.enunciado LIKE 'Escreva em inglês uma frase se apresentando%' THEN
+              CASE
+                WHEN c.ganho >= c.peso THEN          -- nota cheia: apresentação completa, cada aluno com a sua
+                     ELT(1 + MOD(CRC32(CONCAT(c.RA, c.id_aplicacao)), 5),
+                         CONCAT('My name is ', c.pnome, ', I am ', c.idade, ' years old and I am a student.'),
+                         CONCAT('Hello! I am ', c.pnome, ', I am ', c.idade, ' years old and I work as a developer.'),
+                         CONCAT('Hi, my name is ', c.pnome, '. I am ', c.idade, ' years old and I am a college student.'),
+                         CONCAT('I am ', c.pnome, ', ', c.idade, ' years old, and I am a student at Fatec.'),
+                         CONCAT('My name is ', c.pnome, ' and I am ', c.idade, ' years old. I am a software intern.'))
+                WHEN c.ganho >= c.peso / 2 THEN      -- nota média: completa, mas com erros ou faltando algo
+                     ELT(1 + MOD(CRC32(CONCAT(c.RA, c.id_aplicacao)), 3),
+                         CONCAT('My name is ', c.pnome, ', I have ', c.idade, ' years old and I am a student.'),
+                         CONCAT('I am ', c.pnome, ', ', c.idade, ' years old, I am student.'),
+                         CONCAT('My name is ', c.pnome, ' and I am a student.'))
+                WHEN c.ganho > 0 THEN                -- nota baixa: resposta curta
+                     ELT(1 + MOD(CRC32(CONCAT(c.RA, c.id_aplicacao)), 3),
+                         CONCAT('My name is ', c.pnome, '.'),
+                         CONCAT('I am ', c.idade, ' years old.'),
+                         CONCAT('Hello, I am ', c.pnome, '.'))
+                ELSE 'Não sei responder.'
+              END
+         WHEN c.tipo = 'diss' THEN
+              CASE WHEN c.ganho >= c.peso THEN rd.texto
+                   WHEN c.ganho > 0 THEN CONCAT(SUBSTRING_INDEX(SUBSTRING_INDEX(rd.texto, ';', 1), ',', 1), '.')
+                   ELSE 'Não sei responder.' END
+         WHEN c.tipo = 'rela' AND c.ganho >= c.peso THEN      -- todos os pares certos
+              (SELECT CONCAT('[', GROUP_CONCAT(CONCAT('{"item":"', a.texto, '","ligou":"', a.conceito, '"}')
+                                               ORDER BY a.resposta_id SEPARATOR ','), ']')
+               FROM resposta a WHERE a.questao_id = c.questao_id)
+         WHEN c.tipo = 'rela' THEN                            -- todos os pares errados (conceito do item seguinte)
+              (SELECT CONCAT('[', GROUP_CONCAT(CONCAT('{"item":"', a.texto, '","ligou":"', b.conceito, '"}')
+                                               ORDER BY a.resposta_id SEPARATOR ','), ']')
+               FROM resposta a
+               JOIN resposta b ON b.questao_id = a.questao_id
+                AND b.resposta_id = COALESCE(
+                      (SELECT MIN(n.resposta_id) FROM resposta n
+                       WHERE n.questao_id = a.questao_id AND n.resposta_id > a.resposta_id),
+                      (SELECT MIN(m.resposta_id) FROM resposta m WHERE m.questao_id = a.questao_id))
+               WHERE a.questao_id = c.questao_id)
+       END,
+
+       CASE WHEN c.ganho >= c.peso THEN TRUE ELSE FALSE END,   -- correta só com nota cheia
+       c.ganho
+FROM passo4 c
+LEFT JOIN resposta rd ON rd.questao_id = c.questao_id AND c.tipo = 'diss';
+
+
+-- =====================================================================
+-- AJUSTE: respostas (resposta_aluno) das provas dos outros professores (menos Inglês)
+-- Provas que já terminaram, sem nota e sem nenhuma resposta: cria as respostas dos alunos convocados.
+-- Só as respostas: nota e correção ficam em branco para o professor corrigir no app.
+--   alternativa e relacionamento: ~70% acertam (correta já vem marcada, como o app faz na entrega)
+--   dissertativa: 4 níveis de resposta, do completo ao fraco
+-- =====================================================================
+INSERT INTO resposta_aluno (id_aplicacao, prova_id, RA, questao_id, resposta_id, texto_resposta, correta)
+WITH base AS (
+    SELECT pa.id_aplicacao, pt.prova_id, pa.RA, pq.questao_id, qu.tipo, qu.enunciado,
+           MOD(CRC32(CONCAT(pa.RA, pa.id_aplicacao, pq.questao_id)), 10) AS sorteio
+    FROM prova_aluno pa
+    JOIN prova_turma pt   ON pt.id_aplicacao = pa.id_aplicacao
+    JOIN prova_questao pq ON pq.prova_id = pt.prova_id
+    JOIN questao qu       ON qu.questao_id = pq.questao_id
+    WHERE pa.nota IS NULL
+      AND pt.nome_disciplina NOT LIKE 'Inglês%'
+      AND TIMESTAMP(pt.data, pt.horario_fim) <= NOW()
+      AND NOT EXISTS (SELECT 1 FROM resposta_aluno x
+                      WHERE x.id_aplicacao = pa.id_aplicacao AND x.RA = pa.RA)
+),
+niveis AS (
+    SELECT base.*, 1 + (sorteio >= 4) + (sorteio >= 7) + (sorteio >= 9) AS nivel
+    FROM base
+)
+SELECT c.id_aplicacao, c.prova_id, c.RA, c.questao_id,
+
+       CASE WHEN c.tipo = 'alt' THEN
+            (SELECT r.resposta_id FROM resposta r
+             WHERE r.questao_id = c.questao_id
+               AND r.correta = IF(c.sorteio < 7, 1, 0)
+             ORDER BY CRC32(CONCAT(r.resposta_id, c.RA)) LIMIT 1)
+       END,
+
+       CASE
+         WHEN c.tipo = 'diss' AND c.enunciado LIKE 'Explique a diferença entre chave primária%' THEN
+              ELT(c.nivel,
+                  'A chave primária identifica cada registro de forma única; a chave estrangeira referencia a chave primária de outra tabela e garante a integridade.',
+                  'A PK identifica a linha da tabela e a FK liga uma tabela a outra.',
+                  'A chave primária é única e a estrangeira aponta para outra tabela.',
+                  'A chave primária é a chave principal e a estrangeira é a secundária.')
+         WHEN c.tipo = 'diss' AND c.enunciado LIKE 'Cite duas diferenças entre requisitos%' THEN
+              ELT(c.nivel,
+                  'Os requisitos funcionais descrevem o que o sistema faz, como cadastrar um usuário; os não funcionais descrevem qualidades como desempenho e segurança.',
+                  'Funcionais são o que o sistema faz e não funcionais são como ele faz, por exemplo o desempenho.',
+                  'Os funcionais são as funções do sistema e os não funcionais são a velocidade.',
+                  'Os funcionais são mais importantes que os não funcionais.')
+         WHEN c.tipo = 'diss' AND c.enunciado LIKE 'Explique a diferença entre processo e thread%' THEN
+              ELT(c.nivel,
+                  'Um processo tem seu próprio espaço de memória; as threads de um mesmo processo compartilham a memória e os recursos dele.',
+                  'Processo é um programa em execução e a thread é uma parte dele que roda junto.',
+                  'A thread fica dentro do processo e compartilha a memória.',
+                  'Processo e thread são a mesma coisa.')
+         WHEN c.tipo = 'diss' AND c.enunciado LIKE 'Explique a diferença entre HTML e CSS%' THEN
+              ELT(c.nivel,
+                  'O HTML estrutura o conteúdo da página, enquanto o CSS cuida da aparência, das cores e do layout.',
+                  'HTML é a estrutura da página e CSS é o estilo.',
+                  'O HTML faz a página e o CSS deixa ela bonita.',
+                  'CSS é uma linguagem de programação e HTML é só texto.')
+         WHEN c.tipo = 'diss' THEN rd.texto
+         WHEN c.tipo = 'rela' AND c.sorteio < 7 THEN
+              (SELECT CONCAT('[', GROUP_CONCAT(CONCAT('{"item":"', a.texto, '","ligou":"', a.conceito, '"}')
+                                               ORDER BY a.resposta_id SEPARATOR ','), ']')
+               FROM resposta a WHERE a.questao_id = c.questao_id)
+         WHEN c.tipo = 'rela' THEN
+              (SELECT CONCAT('[', GROUP_CONCAT(CONCAT('{"item":"', a.texto, '","ligou":"', b.conceito, '"}')
+                                               ORDER BY a.resposta_id SEPARATOR ','), ']')
+               FROM resposta a
+               JOIN resposta b ON b.questao_id = a.questao_id
+                AND b.resposta_id = COALESCE(
+                      (SELECT MIN(n.resposta_id) FROM resposta n
+                       WHERE n.questao_id = a.questao_id AND n.resposta_id > a.resposta_id),
+                      (SELECT MIN(m.resposta_id) FROM resposta m WHERE m.questao_id = a.questao_id))
+               WHERE a.questao_id = c.questao_id)
+       END,
+
+       CASE WHEN c.tipo IN ('alt', 'rela') THEN (c.sorteio < 7) END
+FROM niveis c
+LEFT JOIN resposta rd ON rd.questao_id = c.questao_id AND c.tipo = 'diss';
+
 
 -- ========== CONFERÊNCIA ==========
 
@@ -1212,8 +1744,7 @@ SELECT * FROM ministra;
 SELECT * FROM curso_disciplina;
 SELECT * FROM turma_disciplina;
 SELECT * FROM pertence;
- 
- 
+
 SELECT * FROM questao;
 SELECT * FROM resposta;
 SELECT * FROM prova;
@@ -1221,3 +1752,12 @@ SELECT * FROM prova_aluno;
 
 SELECT * FROM prova_questao;
 SELECT * FROM prova_turma;
+SELECT * FROM resposta_aluno;
+
+-- novas
+SELECT * FROM item_avaliativo;
+
+SELECT * FROM v_media_aluno;
+SELECT * FROM v_correcao_status;
+SELECT * FROM v_auditoria_pesos;
+SELECT * FROM v_auditoria_notas;
